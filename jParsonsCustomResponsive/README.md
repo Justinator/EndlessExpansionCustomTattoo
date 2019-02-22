@@ -1,5 +1,5 @@
 # jParsonsCustomResponsive
-:car: Ardens Auto Custom WP Website
+Endless Expansion Custom WP Website
 Built on the underscores starter theme
 
 # :metal: Getting started
