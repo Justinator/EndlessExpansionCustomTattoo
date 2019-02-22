@@ -1,0 +1,24 @@
+/* 16.0 Project Pages -------------------------------------------*/
+.featuredProjects{
+  margin-top: 100px;
+}
+.projectsHeading{
+  @include breakpoint(smallScreen){
+    bottom: -120px;
+  }
+  @include breakpoint(largeMobileScreen){
+    bottom: -130px;
+  }
+  @include breakpoint(tabletScreen){
+    bottom: -55px;
+  }
+}
+.jeepHero{
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped2.jpg");
+}
+.imageWrapper{
+  padding: 10px;
+}
+.mazdaHero{
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Cropped.jpg");
+}

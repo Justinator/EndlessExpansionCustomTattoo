@@ -1,0 +1,144 @@
+/* 12.0 Service Page stylings -------------------------------------------*/
+.serviceHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/transmissionWorkCroppedLarge.jpg');
+}
+.serviceHeading{
+  @include breakpoint(smallScreen){
+		bottom: -160px !important;
+	}
+	@include breakpoint(largeMobileScreen){
+		bottom: -130px;
+	}
+	@include breakpoint(tabletScreen){
+		bottom: -55px;
+	}
+	@media (min-width: 1250px){
+		width: 60%;
+	}
+}
+#servicesIntro{
+	@include breakpoint(smallScreen){
+		margin-top: 200px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 150px;
+	}
+	@include breakpoint(tabletScreen){
+		margin-top: 75px;
+	}
+}
+.servicesPageContent{
+  @include breakpoint(smallScreen){
+		margin-top: 200px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 150px;
+	}
+	@include breakpoint(tabletScreen){
+		margin-top: 75px;
+	}
+}
+.tabletRow{
+  @include breakpoint(smallScreen){
+    display: none;
+  }
+	@include breakpoint(largeMobileScreen){
+		display: none;
+	}
+  @include breakpoint(tabletScreen){
+    display: flex;
+  }
+	@include breakpoint(laptopScreen){
+		display: none;
+	}
+}
+.serviceSectionTitle{
+  padding: 25px 0 0 10px;
+}
+#serviceBlock1{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/underHoodServices.jpg');
+  @include breakpoint(smallScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-top: 100px;
+  }
+}
+#serviceBlock2{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/underCarServices.jpg');
+  @include breakpoint(smallScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 25px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-top: 100px;
+  }
+}
+.serviceBlock{
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+    &:after{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      z-index: 3;
+      background-color: rgba(255,255,255,.9);
+    }
+}
+.serviceBlockContent{
+  position: relative;
+  z-index: 4;
+}
+.serviceBlockImage{
+  margin-bottom: -8px;
+}
+#servicesButton{
+  margin-bottom: 25px;
+}
+.oilHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/oilChangeCropped.jpg');
+}
+.brakeHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/brakeRepairServicesCropped.jpg');
+}
+.ACHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/airConditioningRepairServicesCropped2.jpg');
+}
+.tireHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/tireService.jpg');
+}
+.exhaustHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/exhaustRepairServices2Cropped.jpg');
+}
+.maintenanceHero{
+  background-image: url('/assets/scss/wp-content/uploads/2019/01/preventativeMaintenance.jpg');
+}
+.tireHeading{
+  @include breakpoint(smallScreen){
+    bottom: -120px !important;
+  }
+  @include breakpoint(largeMobileScreen){
+    bottom: -130px !important;
+  }
+  @include breakpoint(tabletScreen){
+    bottom: -55px !important;
+  }
+}
+#tiresOverview{
+  @include breakpoint(smallScreen){
+    margin-top: -50px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 0;
+  }
+}

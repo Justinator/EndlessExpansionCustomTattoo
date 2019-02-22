@@ -1,0 +1,93 @@
+/* 8.0 General Body Styles -------------------------------------------*/
+body{
+	background: $fullBlack;
+	margin: 0;
+}
+button:focus{
+	outline: 4px dashed orange !important;
+}
+/*
+  Remove default focus styles for mouse users ONLY if
+  :focus-visible is supported on this platform.
+*/
+.js-focus-visible button:focus:not(:focus-visible) {
+  outline: none;
+}
+/*
+  Optionally: If :focus-visible is supported on this
+  platform, provide enhanced focus styles for keyboard
+  focus.
+*/
+.js-focus-visible button:focus-visible {
+  outline: 4px dashed orange !important;
+}
+a:focus{
+	outline: 4px dashed orange !important;
+}
+.js-focus-visible a:focus:not(:focus-visible) {
+  outline: none;
+}
+.js-focus-visible a:focus-visible {
+  outline: 4px dashed orange !important;
+}
+::selection{
+		background: rgba(210,113,41,.7);
+}
+::-moz-selection{
+	background: rgba(210,113,41,.7);
+}
+/*
+ *  Style for our scrollbar, yeah it won't work in most browsers but still a cool custom touch for anyone using chrome
+ */
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: #CCCCCC;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: $lightGrey;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: $primaryColor;
+}
+
+.plainLink{
+	position: relative;
+	text-decoration: none;
+	color: $primaryColor;
+	transition: .3s ease all;
+		&:before{
+			position: absolute;
+			bottom: 50%;
+			left: 0;
+			content: "";
+			height: 2px;
+			width: 100%;
+			opacity: 0;
+			background: $primaryColor;
+			transition: .3s ease all;
+		}
+    &:hover{
+	    color: $primaryColorDarkened;
+	    transition: .3s ease all;
+				&:before{
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					content: "";
+					opacity: 1;
+					background: $primaryColorDarkened;
+					transition: .3s ease all;
+				}
+    }
+}
+.sublink{
+	margin-left: 50px;
+}
+#privacyPolicy{
+	margin-top: 150px;
+}

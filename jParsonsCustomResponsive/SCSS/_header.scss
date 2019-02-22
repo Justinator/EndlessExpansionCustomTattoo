@@ -1,0 +1,277 @@
+/*4.0 Header Styling -------------------------------------------*/
+.site-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	height: 70px;
+	width: 100vw;
+}
+.main-navigation{
+	height: 70px;
+	width: 100%;
+	margin: 0 auto;
+	background: $black;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 28px 0 rgba(0,0,0,.25);
+		@include breakpoint(smallScreen){
+			height: 70px;
+		}
+}
+.secondaryNavigation{
+	height: 40px;
+	margin: 0 auto;
+	width: 100%;
+	background: $secondaryBlack;
+	display: flex;
+	align-items: center;
+}
+.menuLinkWrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.secondaryMenuWrap{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.secondaryLink{
+	color: $primaryColor;
+	padding: 4px 15px 5px 15px;
+	text-decoration: none;
+	transition: .3s ease all;
+	font-size: 18px;
+		&:hover{
+			color: $lightGrey;
+			transition: .3s ease all;
+		}
+			@include breakpoint(smallScreen){
+				font-size: 14px;
+			}
+			@include breakpoint(largeMobileScreen){
+				font-size: 16px;
+			}
+			@include breakpoint(laptopScreen){
+				font-size: 18px;
+			}
+}
+.site-content{
+	@include breakpoint(smallScreen){
+		margin-top: 15px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 15px;
+	}
+	@include breakpoint(tabletScreen){
+		margin-top: 25px;
+	}
+}
+.entry-header{
+	display:none;
+}
+.siteLogo{
+	margin-top: 9px;
+	height: auto;
+	width: 115px;
+}
+nav{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	width: 100%;
+}
+.menuText{
+	cursor: pointer;
+	font-size: 26px;
+	font-weight: 700;
+	padding-right: 10px;
+	color: $white;
+	text-decoration: none;
+	transition: .3s ease-out all;
+}
+.menuTextWrap{
+	display: flex;
+	margin-left: 10px;
+	right: 100px;
+}
+.menuBars{
+	cursor: pointer;
+	display: inline-block;
+	width: 30px;
+	padding-top: 8px;
+		span{
+			display: block;
+			position: relative;
+			background-color: $primaryColor;
+			height: 3px;
+			width: 100%;
+			margin-top: 4px;
+		}
+}
+.menu{
+	position: absolute;
+	top: 0;
+	z-index: 99999;
+	height: 90vh;
+	width: 100vw;
+	background-color:  $black;
+	transform: translateY(-100%);
+	transition: .2s ease-out all;
+}
+.open{
+	position: fixed;
+	transform: translate(0);
+	transition: .1s ease-out all;
+}
+.linkWrap{
+	position: absolute;
+	top: 150px;
+	margin: 0 50px 0 50px;
+	width: 90%;
+	text-align: left;
+		@include breakpoint(smallScreen){
+			top: 75px;
+			margin: 0;
+				a{
+					color: $white;
+					font-weight: 700;
+					text-decoration: none;
+				}
+				li{
+					list-style: none;
+					margin-top: 25px;
+					font-size: 20px;
+					line-height: 5px;
+					padding-bottom: 10px;
+					border-bottom: 1px solid $lightGrey;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+				}
+		}
+		@include breakpoint(largeMobileScreen){
+			top: 75px;
+			margin: 0;
+				a{
+					color: $white;
+					font-weight: 700;
+					text-decoration: none;
+				}
+				li{
+					list-style: none;
+					margin-top: 25px;
+					font-size: 20px;
+					line-height: 5px;
+					padding-bottom: 10px;
+					border-bottom: 1px solid $lightGrey;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+				}
+		}
+}
+.menuLink{
+	position: relative;
+	display: block;
+	margin: 10px 30px 10px 30px;
+	transition: .2s ease all;
+		@include breakpoint(largeScreen){
+			padding: 10px 10px 10px 10px;
+		}
+}
+.menuLink{
+		&:after{
+			position: absolute;
+			content: "";
+			bottom: 0;
+			left: 0;
+			width: 0%;
+			height: 3px;
+			background: $primaryColor;
+			transition: .3s ease all;
+		}
+		&:hover{
+			&:after{
+			position: absolute;
+			content: "";
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 3px;
+			background: $primaryColor;
+			transition: .3s ease all;
+		}
+	}
+}
+.menu{
+	.active{
+		a{
+				border-bottom: 2px solid $primaryColor !important;
+				color: $white;
+				width: 100%;
+				text-align: initial;
+			}
+		}
+}
+.linkList2{
+	.active{
+		a{
+			margin-bottom: -1px;
+			border-bottom: 3px solid $primaryColor !important;
+			transition: .2s ease all;
+		}
+	}
+}
+.closeMenuButton{
+	position: absolute;
+	cursor: pointer;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	background-color: $primaryColor;
+}
+#closeMenuButtonWrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#closeMenuTitle{
+	margin: 0;
+	color: $secondaryColor;
+}
+.linkList2{
+	display:none;
+		@include breakpoint(laptopScreen){
+			display: flex;
+			height: 70px;
+			align-items:center;
+			list-style-type: none;
+			font-size: 14px;
+		}
+		@include breakpoint(largeScreen){
+			font-size: 20px;
+		}
+		a{
+			color:$white;
+			font-weight: 400;
+			text-decoration: none;
+			transition: .3s ease all;
+			&:hover{
+				color: $primaryColor !important;
+				transition: .3s ease all;
+			}
+		}
+}
+.menuButtonWrap{
+	display:flex;
+	right: 30px;
+	padding: 20px;
+		@include breakpoint(laptopScreen){
+			display: none;
+		}
+		@include breakpoint(smallScreen){
+			padding: 15px;
+		}
+}

@@ -1,0 +1,67 @@
+/* 6.0 Site Typography -------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #020101;
+	font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
+	line-height: 1.2em;
+	font-weight: 700;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin-block-start: 0;
+}
+h1{
+	@include breakpoint(smallScreen){
+		font-size: 1.3em;
+	}
+	@include breakpoint(largeMobileScreen){
+		font-size: 1.7em;
+	}
+}
+h2{
+	font-size: 1.6em;
+}
+h3{
+	font-size: 1.5em;
+}
+h4{
+	font-size: 1.4em;
+}
+h5{
+	font-size: 1.3em;
+}
+h6{
+	font-size: 1em;
+}
+.whiteText{
+	color: $white;
+}
+.redText{
+	color: $primaryColor;
+}
+.centerText{
+	text-align: center;
+}
+.underlinedHeading{
+	position: relative;
+    &:after{
+      position: absolute;
+    	background: $primaryColor;
+    	height: 2px;
+    	width: 200px;
+    	content: "";
+    	left: 0;
+    	bottom: -20px;
+    }
+}
+address{
+	font-style: inherit;
+}

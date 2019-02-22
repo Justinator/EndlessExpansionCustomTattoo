@@ -1,0 +1,68 @@
+/* 15.0 About Pages -------------------------------------------*/
+.aboutHero{
+  background-image: url("/assets/scss/wp-content/uploads/2019/01/alexWorkingOnATransmissionCropped.jpg");
+}
+.aboutHeading{
+	border-radius: 10px;
+  background-color: rgba(201, 43, 44,.9);
+  position: absolute;
+  bottom: -75px;
+	@include breakpoint(smallScreen){
+		width: 100%;
+		border-radius: 0;
+		background-color: $primaryColor;
+		bottom: -160px;
+	}
+	@include breakpoint(largeMobileScreen){
+		width: 100%;
+		border-radius: 0;
+		background-color: $primaryColor;
+		bottom: -170px;
+	}
+	@include breakpoint(tabletScreen){
+		width: 80%;
+		border-radius: 10px;
+		background-color: rgba(201, 43, 44,.9);
+		bottom: -55px;
+	}
+	@media (min-width: 1250px){
+		width: 60%;
+	}
+}
+#ardensHistory{
+  @include breakpoint(smallScreen){
+		margin-top: 195px;
+	}
+	@include breakpoint(largeMobileScreen){
+		margin-top: 80px;
+	}
+	@include breakpoint(tabletScreen){
+		margin-top: 150px;
+	}
+}
+
+.reviewHeading{
+  @include breakpoint(smallScreen){
+		bottom: -120px;
+	}
+	@include breakpoint(largeMobileScreen){
+		bottom: -130px;
+	}
+	@include breakpoint(tabletScreen){
+		bottom: -55px;
+	}
+	@media (min-width: 1250px){
+		width: 60%;
+	}
+}
+#reviewIntro{
+  @include breakpoint(smallScreen){
+    margin-top: 150px;
+  }
+  @include breakpoint(largeMobileScreen){
+    margin-top: 150px;
+  }
+  @include breakpoint(laptopScreen){
+    margin-top: 100px;
+  }
+}
