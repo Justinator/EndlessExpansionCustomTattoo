@@ -81,7 +81,7 @@ get_header();
 
 				<section id ="tattooServices">
 
-					<div class="pageWidth flex-container-reverse centerAlignedContainer">
+					<div class="contentBlock flex-container-reverse centerAlignedContainer">
 
 						<div class="col50">
 
@@ -132,7 +132,7 @@ get_header();
 
 						<div class="testimonialWrapper">
 
-							<p class="whiteText">
+							<p class="whiteText centerText">
 								Greg is an amazing artist and a pretty stand up dude, I love his style of tattooing and his personality (both very important when getting a tattoo).
 								He is also light handed which makes it a little easier to sit through a long session. My first tattoo from him was about 4 years ago and the color
 								still looks brand new. I am constantly getting compliments or being asked where I get my tattoos from. I highly recommend Greg if your looking for
@@ -151,7 +151,7 @@ get_header();
 
 				<section id ="tattooServices">
 
-					<div class="pageWidth flex-container centerAlignedContainer">
+					<div class="contentBlock flex-container centerAlignedContainer">
 
 						<div class="col50">
 
@@ -197,7 +197,7 @@ get_header();
 
 				<section id ="aboutGreg">
 
-					<div class="pageWidth flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
+					<div class="contentBlock flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
 
 						<div class="col50">
 
@@ -244,7 +244,7 @@ get_header();
 
 						<div class="testimonialWrapper">
 
-							<p class="whiteText">
+							<p class="whiteText centerText">
 								Greg is an absolutely amazing artist and was born to tattoo. His custom/freehand pieces are breathtaking. I wouldn't trust anyone else to place
 								tattoos on me. Even if you are uncertain with what you want, he never fails and exceeds with his talents and visions. Greg is also very personable
 								so it's easy to talk through your ideas and focus on what you truly want for your masterpiece.

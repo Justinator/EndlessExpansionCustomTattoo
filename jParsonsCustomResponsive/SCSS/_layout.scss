@@ -105,6 +105,19 @@
 	height: 100%;
 	margin: 0 auto;
 }
+.contentBlock{
+	height: 100%;
+	margin: 0 auto;
+	@include breakpoint(smallScreen){
+		width: 90%;
+	}
+	@include breakpoint(largeMobileScreen){
+		width: 90%;
+	}
+	@include breakpoint(extraLargeScreen){
+		width: 70%;
+	}
+}
 .blockText{
 	padding: 50px;
 	position: relative;

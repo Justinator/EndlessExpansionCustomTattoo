@@ -118,6 +118,19 @@ Text Domain: jParsonsCustomResponsive
   height: 100%;
   margin: 0 auto; }
 
+.contentBlock {
+  height: 100%;
+  margin: 0 auto; }
+  @media (max-width: 600px) {
+    .contentBlock {
+      width: 90%; } }
+  @media (min-width: 600px) {
+    .contentBlock {
+      width: 90%; } }
+  @media (min-width: 1600px) {
+    .contentBlock {
+      width: 70%; } }
+
 .blockText {
   padding: 50px;
   position: relative;
@@ -758,6 +771,9 @@ h1, h2, h3, h4, h5, h6, p {
 @media (min-width: 600px) {
   h1 {
     font-size: 1.7em; } }
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2em; } }
 
 h2 {
   font-size: 1.6em; }
@@ -942,15 +958,13 @@ a:focus {
  */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
-  border-radius: 10px;
-  background-color: #CCCCCC; }
+  background-color: #b3b3b3; }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 15px;
   background-color: #b3b3b3; }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
   background-color: #d27129; }
 
 .sublink {
@@ -2055,27 +2069,44 @@ template {
   #reviewIntro {
     margin-top: 100px; } }
 
-/* 16.0 Project Pages -------------------------------------------*/
+/* 16.0 Products Pages -------------------------------------------*/
 .featuredProjects {
   margin-top: 100px; }
 
 @media (max-width: 600px) {
-  .projectsHeading {
-    bottom: -120px; } }
+  .entry-content {
+    margin-top: 50px; } }
 @media (min-width: 600px) {
-  .projectsHeading {
-    bottom: -130px; } }
+  .entry-content {
+    margin-top: 50px; } }
 @media (min-width: 768px) {
-  .projectsHeading {
-    bottom: -55px; } }
-
-.jeepHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped2.jpg"); }
-
-.imageWrapper {
-  padding: 10px; }
-
-.mazdaHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Cropped.jpg"); }
+  .entry-content {
+    margin-top: 150px; } }
+.entry-content .price {
+  color: #d27129 !important; }
+.entry-content p {
+  color: #FFFFFF; }
+.entry-content button, .entry-content .button {
+  position: relative;
+  z-index: 1;
+  border: 2px solid #d27129 !important;
+  background: #d27129 !important;
+  border-radius: 0 !important;
+  padding: 10px 20px !important;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  width: max-content;
+  margin-bottom: 10px;
+  transition: .2s ease all;
+  cursor: pointer; }
+  .entry-content button:hover, .entry-content .button:hover {
+    background: rgba(0, 0, 0, 0) !important;
+    border: 2px solid #d27129 !important;
+    color: #d27129 !important;
+    transition: .2s ease all; }
+.entry-content .product_meta {
+  display: none; }
+.entry-content h2 {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

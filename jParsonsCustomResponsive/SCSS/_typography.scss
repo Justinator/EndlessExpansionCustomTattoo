@@ -25,6 +25,9 @@ h1{
 	@include breakpoint(largeMobileScreen){
 		font-size: 1.7em;
 	}
+	@include breakpoint(tabletScreen){
+		font-size: 2em;
+	}
 }
 h2{
 	font-size: 1.6em;

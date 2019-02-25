@@ -72,7 +72,7 @@ get_header();
 
 				<section id ="tattooServices">
 
-					<div class="pageWidth flex-container-reverse centerAlignedContainer">
+					<div class="contentBlock flex-container-reverse centerAlignedContainer">
 
 						<div class="col50">
 
@@ -119,7 +119,7 @@ get_header();
 
 				<section id ="tattooServices">
 
-					<div class="pageWidth flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
+					<div class="contentBlock flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
 
 						<div class="col50">
 
@@ -180,7 +180,7 @@ get_header();
 
 				<section id ="tattooServices">
 
-					<div class="pageWidth flex-container centerAlignedContainer">
+					<div class="contentBlock flex-container centerAlignedContainer">
 
 						<div class="col50">
 
@@ -227,7 +227,7 @@ get_header();
 
 				<section id ="aboutGreg">
 
-					<div class="pageWidth flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
+					<div class="contentBlock flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
 
 						<div class="col50">
 
@@ -269,7 +269,7 @@ get_header();
 
 				</section>
 
-				<section class="testimonial paddedSection removeBottomPadding">
+				<section class="testimonial paddedSection">
 
 					<div class="pageWidth blackBlock">
 
