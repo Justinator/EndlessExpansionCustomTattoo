@@ -36,6 +36,14 @@
   stroke: $white;
   fill: $white;
 }
+.largeIcon{
+	display: inline-block;
+  width: 30px;
+  height: 30px;
+  stroke-width: 0;
+  stroke: $white;
+  fill: $white;
+}
 .rotateIcon{
 	transform: rotate(90deg);
 }

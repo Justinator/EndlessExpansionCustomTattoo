@@ -22,32 +22,6 @@ get_header();
 
 			<main id="main" class="site-main">
 
-				<section>
-
-					<div class="hero shopHero">
-
-						<div class="heroOverlay">
-
-							<div class="heroHeadingWrap fullWidth">
-
-									<div id="contactHeading" class="homeHeading">
-
-										<div class="heroHeading">
-
-											<h1 class="whiteText centerText">Contact Arden's Automotive Hospital</h1>
-
-										</div>
-
-									</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</section>
-
 				<section id ="contactContent">
 
 					<div id="contactWrap">
@@ -56,15 +30,16 @@ get_header();
 
 							<div id="formWrap" class="col60">
 
-								<p>
-								Have some questions that you still need help with? We're here to help.
-								</p>
+								<h2 class="whiteText">
+								Get Started Creating Your Next Custom Tattoo
+								</h2>
 
-								<p>Fill out the form below and we'll get back to you as soon as we can!</p>
+								<p class="whiteText">Isn't it time you worked with a conscientious tattoo artist to thoughtfully plan and create your new custom tattoo?
+									Fill out the form below so we can start creating your perfect piece of artwork together.</p>
 
-								<h3>To schedule an appointment call us at <a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a></h3>
+								<h3 class="whiteText">To schedule an appointment call us at <a class="plainLink" href="tel:(920)241-2872">(920) 241-2872</a> or fill out the form below.</h3>
 
-								<?php echo do_shortcode('[caldera_form id="CF5c3c73e0407dd"]'); ?>
+								<?php echo do_shortcode('[caldera_form id="CF5adf9952b755d"]'); ?>
 
 							</div>
 
@@ -72,29 +47,33 @@ get_header();
 
 								<div class="smallMapWrapper">
 
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.495470991913!2d-88.55277408449062!3d44.01115477911062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8803ebf8a244848f%3A0xab246929a6800b92!2sArden&#39;s+Automotive+Hospital+LLC!5e0!3m2!1sen!2sus!4v1547465257974" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.566176421988!2d-88.0440947844731!3d44.54451457910082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802f0656fa44255%3A0x41108808b4bc0ecb!2s1422+Velp+Ave%2C+Green+Bay%2C+WI+54303!5e0!3m2!1sen!2sus!4v1551050449039" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 								</div>
 
 								<div>
 
-									<div class="locationContent">
+									<div class="locationContentWrapper">
 
-										<h5>Arden's Automotive Hospital</h5>
+										<div class="locationContent blackBlock">
 
-										<a class="plainLink" target="_blank" href="https://www.google.com/maps/place/Arden's+Automotive+Hospital+LLC/@44.0111548,-88.5527741,17z/data=!3m1!4b1!4m5!3m4!1s0x8803ebf8a244848f:0xab246929a6800b92!8m2!3d44.0111548!4d-88.5505854">
+											<h5 class="whiteText">Endless Expansion Custom Tattoo</h5>
 
-										<p>510 W 8th Ave<br>
+											<a class="plainLink" target="_blank" href="https://www.google.com/maps/dir//1422+Velp+Ave,+Green+Bay,+WI+54303/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8802f0656fa44255:0x41108808b4bc0ecb?ved=2ahUKEwipyfbAvdXgAhVGxoMKHXwcAqIQwwUwAHoECAAQAw">
 
-										Oshkosh, WI 54902</p></a>
+											<p>1422 Velp Ave<br>
 
-										<a class="plainLink" href="tel:(920)203-3694">(920) 203-3694</a>
+											Green Bay, WI 54303</p></a>
 
-										<br>
+											<a class="plainLink" href="tel:(920)241-2872">(920) 241-2872</a>
 
-										<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
+											<br>
 
-										<br>
+											<a class="plainLink" href="/customer-reviews/">Leave Us a Review</a>
+
+											<br>
+
+										</div>
 
 									</div>
 

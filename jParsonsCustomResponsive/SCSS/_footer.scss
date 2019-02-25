@@ -75,8 +75,12 @@
 		@include breakpoint(largeMobileScreen){
 			padding: 0;
 			margin: 0;
-		}@include breakpoint(tabletScreen){
+		}
+		@include breakpoint(tabletScreen){
 			margin: 10px 20px;
+			font-size: 16px;
+		}@include breakpoint(laptopScreen){
+			font-size: 20px;
 		}
     &:after{
       position: absolute;
@@ -103,6 +107,10 @@
         	transition: .3s ease all;
         }
       }
+}
+.socialNavigation{
+	justify-content: center;
+	margin: 10px 0;
 }
 address{
 	h5{

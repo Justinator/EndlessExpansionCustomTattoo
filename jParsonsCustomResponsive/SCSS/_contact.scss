@@ -1,10 +1,10 @@
 /* 13.0 Contact Page stylings -------------------------------------------*/
 #contactContent{
   @include breakpoint(smallScreen){
-    margin-top: 250px !important
+    margin-top: 100px !important
   }
   @include breakpoint(largeMobileScreen){
-    margin-top: 250px !important
+    margin-top: 100px !important
   }
   @include breakpoint(tabletScreen){
     margin-top: 150px !important;
@@ -20,6 +20,14 @@
 	@include breakpoint(tabletScreen){
 		bottom: -55px !important;
 	}
+}
+.locationContentWrapper{
+  padding: 20px;
+}
+.locationContent{
+  padding: 20px;
+  position: relative;
+  top: -50px;
 }
 .smallMapWrapper{
   padding: 20px;
@@ -48,4 +56,36 @@
 }
 #fld_7683514_1{
   height: 100px;
+}
+#fld_9225901Label{
+  color: $white !important;
+}
+.radio{
+  label{
+    color: $white !important;
+  }
+}
+.uploadButton{
+  background-color: $black;
+}
+.file-prevent-overflow{
+  button{
+    position: relative;
+  	z-index:1;
+  	border: 2px solid $primaryColor;
+  	background: $primaryColor;
+  	padding: 10px 20px;
+  	color: $white !important;
+    text-decoration: none;
+    width: max-content;
+  	margin-bottom: 10px;
+  	transition: .2s ease all;
+  	cursor: pointer;
+      &:hover{
+        background: $transparent !important;
+        border: 2px solid $primaryColor !important;
+        color: $primaryColor !important;
+      	transition: .2s ease all;
+      }
+  }
 }

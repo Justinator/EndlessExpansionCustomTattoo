@@ -69,7 +69,7 @@ get_header();
 
 							<p>
 								At Endless Expansion Custom Tattooing, you'll receive a creative and relaxing one on one experience with a highly skilled professional
-								with nearly seventeen years of experience. Your tattoo will be a one of a kind work of art, fully personalized to your body, that will
+								with seventeen years of experience. Your tattoo will be a one of a kind work of art, fully personalized to your body, that will
 								keep you coming back again and again.
 							</p>
 
@@ -79,28 +79,101 @@ get_header();
 
 				</section>
 
-				<section id ="ardensIntro">
+				<section id ="tattooServices">
 
-					<div class="navWidth flex-container centerAlignedContainer">
+					<div class="pageWidth flex-container-reverse centerAlignedContainer">
+
+						<div class="col50">
+
+							<img
+							srcset="/endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 400w,
+							 /endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 600w,
+							 /endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 800w,
+							 /endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 1200w"
+							 src="/endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg"
+							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
+
+						</div>
 
 						<div class="col50">
 
 							<div class="blockText">
 
-								<h2>Fully Customizable, Completely Personal, Endlessly Creative Tattoo Experience</h2>
+								<h2 class="smallMargin">High-Quality and Tailor Fit Tattoos</h2>
+
+								<div class="textUnderline"></div>
 
 								<p>
-									Arden's Automotive Hospital has been a family owned and operated auto repair shop since 1959. At Arden's, you’ll experience our great
-									customer service and honest opinion.
+									When getting a high-quality tattoo, there's no cutting corners when it comes to planning. Even if it takes hours or days of research,
+									every tattoo is well thought out and designed to form fit to your body.
 								</p>
+								<p>
+									It's not only about how your tattoo looks now, but also how your tattoo ages over its entire lifetime. Every tattoo gets planned and
+									designed to age well, ensuring you and your artwork look great for years to come.
+								</p>
+								<p>
+									All tattoos are applied by a gentle hand with quick and precise execution. Your tattoo will not only look great, but you'll be as comfortable
+									as possible throughout the entire experience.
+								</p>
+
+								<a href="/endlessExpansion/tattoo-services/" class="primaryButton" role="link">View Tattoo Services</a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<section class="testimonial paddedSection">
+
+					<div class="pageWidth blackBlock">
+
+						<div class="testimonialWrapper">
+
+							<p class="whiteText">
+								Greg is an amazing artist and a pretty stand up dude, I love his style of tattooing and his personality (both very important when getting a tattoo).
+								He is also light handed which makes it a little easier to sit through a long session. My first tattoo from him was about 4 years ago and the color
+								still looks brand new. I am constantly getting compliments or being asked where I get my tattoos from. I highly recommend Greg if your looking for
+								a quality piece of custom artwork!
+							</p>
+
+							<div class="orangeDivider"></div>
+
+							<h6 class="whiteText centerText noMargin">Raven Duprey</h6>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<section id ="tattooServices">
+
+					<div class="pageWidth flex-container centerAlignedContainer">
+
+						<div class="col50">
+
+							<div class="blockText">
+
+								<h2 class="smallMargin">Clean, Precise, and Vibrant Custom Tattoos</h2>
+
+								<div class="textUnderline"></div>
 
 								<p>
-									We know you need to get the job done quickly so you get your car back on the road. But most importantly, you need the job done right.
-									At Arden’s, we pride ourselves in taking the extra time to properly diagnose your car's issues. Saving you money and getting you back
-									on the road faster.
+									Specializing in fine to thick line illustrative work, highly saturated color, painterly style, pseudo-spiritual, psychedelia, cartoon realism,
+									abstract, outer space, elemental, nature-themed art and more.
+								</p>
+								<p>
+									Have a different tattoo style in mind? No problem! We will do everything in our power to properly research, plan, and execute the style of tattoo
+									that you want, even if that means referring you to a different artist. Only the highest quality tattoos are acceptable here!
+								</p>
+								<p>
+									View the Endless Expansion Custom Tattoo portfolio to see the quality and craftsmanship that goes into every tattoo.
 								</p>
 
-								<a href="/about/" class="redButton" role="link">Learn More About Arden's</a>
+								<a href="/endlessExpansion/tattoo-portfolio/" class="primaryButton" role="link">View Tattoo Portfolio</a>
 
 							</div>
 
@@ -109,12 +182,12 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/assets/scss/wp-content/uploads/2019/01/ardensOldTruck-400.jpg 400w,
-							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck-600.jpg 600w,
-							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck-800.jpg 800w,
-							 /assets/scss/wp-content/uploads/2019/01/ardensOldTruck.jpg 1200w"
-							 src="/assets/scss/wp-content/uploads/2019/01/ardensOldTruck.jpg"
-							 class="image" alt="Arden's Auto old classic tow truck parked in front of building">
+							srcset="/endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 400w,
+							 /endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 600w,
+							 /endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 800w,
+							 /endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 1200w"
+							 src="/endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg"
+							 class="image borderedImageRight" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
 
@@ -122,53 +195,40 @@ get_header();
 
 				</section>
 
-				<section class="ardensBenefits paddedSection">
+				<section id ="aboutGreg">
 
-					<?php get_template_part('Includes/benefits'); ?>
+					<div class="pageWidth flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
 
-				</section>
+						<div class="col50">
 
-				<section id="services">
+							<img
+							srcset="/endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 400w,
+							 /endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 600w,
+							 /endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 800w,
+							 /endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 1200w"
+							 src="/endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg"
+							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
 
-					<div class="pageWidth">
+						</div>
 
-						<h2 class="centerText">Auto Maintenance Is Hard, Right?</h2>
+						<div class="col50">
 
-						<p id="serviceHook">
-							Is your car making that weird noise again? Not sure what’s going on or how to figure it out? With experience from oil changes, brakes, and
-							tires to troubleshooting and diagnosing engine failures, at Arden’s you’ll find an expert and fair diagnosis and repair for all your
-							car’s issues. Does your vehicle need attention right away? Schedule an appointment or call Arden’s today at <a href="tel:(920)203-3694" class="plainLink">(920) 203-3694</a>.
-						</p>
+							<div class="blockText">
 
-					</div>
+								<h2 class="smallMargin">Meet Tattoo Artist Greg Counard</h2>
 
-					<?php get_template_part('Includes/services'); ?>
+								<div class="textUnderline"></div>
 
-				</section>
+								<p>
+									An honest, professional, and conscientious tattoo artist. At Endless Expansion you'll find a deep respect for tattooing. Every custom tattoo is
+									well thought out and executed ensuring you get the best possible work available.
+								</p>
+								<p>
+									In order to create unique and custom artwork for every client, extensive research goes into the motivations behind your tattoo. These details
+									get incorporated to add more individualized character to your tattoo.
+								</p>
 
-				<section class="testimonial">
-
-					<div class="navWidth smallPaddedSection">
-
-						<div class="col60 centeredContainer">
-
-							<div class="raisedTextBox">
-
-								<div class="textWrap">
-
-									<h3>Client Feedback</h3>
-
-									<p>
-
-										" This a great family owned business that prides itself on honesty and trustworthiness. They really make you feel a part of the family when you're there. Prices
-										are always fair and you can trust that the work being done is of high quality. "
-
-										<br><br>
-
-										-Kailey Lemon
-									</p>
-
-								</div>
+								<a href="/endlessExpansion/about/" class="primaryButton" role="link">Learn More About Greg</a>
 
 							</div>
 
@@ -178,66 +238,59 @@ get_header();
 
 				</section>
 
-				<section id="featuredProjects">
+				<section class="testimonial paddedSection removeBottomPadding">
 
-					<div class="fullWidth whiteBlock">
+					<div class="pageWidth blackBlock">
+
+						<div class="testimonialWrapper">
+
+							<p class="whiteText">
+								Greg is an absolutely amazing artist and was born to tattoo. His custom/freehand pieces are breathtaking. I wouldn't trust anyone else to place
+								tattoos on me. Even if you are uncertain with what you want, he never fails and exceeds with his talents and visions. Greg is also very personable
+								so it's easy to talk through your ideas and focus on what you truly want for your masterpiece.
+							</p>
+
+							<div class="orangeDivider"></div>
+
+							<h6 class="whiteText centerText noMargin">Ashley Flynn</h6>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<section id="featuredWork">
+
+					<div class="pageWidth">
 
 						<div class="navWidth paddedSection">
 
 							<div class="fullWidth">
 
-									<h3 class="centerText">Featured Auto Repair Projects</h3>
+									<h3 class="centerText whiteText">Featured Tattoo Work</h3>
 
 							</div>
 
-							<div class="fullWidth serviceFlexContainer">
+							<div class="fullWidth featuredWorkWrapper">
 
-								<div class="col40 zoomContainerWrapper">
+								<img src="/endlessExpansion/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattooSmall.jpg" class="flexImage"
+			           alt="Colorful custom skull with watercolor flowers tattoo by Green Bay, WI tattoo artist Greg Counard">
 
-										<a class="zoomContainerLarge" href="/projects/jeep-cherokee/">
+								 <img src="/endlessExpansion/wp-content/uploads/2018/04/bearTattooSmall.jpg" class="flexImage"
+ 			           alt="Colorful black and grey bear tattoo by Green Bay, WI tattoo artist Greg Counard">
 
-											<div class="zoomContainerLarge">
+								 <img src="/endlessExpansion/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardSmall.jpg" class="flexImage"
+ 			           alt="Colorful custom flower tattoo by Green Bay, WI tattoo artist Greg Counard">
 
-												<img class="image zoomImage"
-							          srcset="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-400.jpg 400w,
-							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-500.jpg 600w,
-							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFront-600.jpg 800w,
-							           /assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg 1200w"
-							          sizes="(min-width: 992px) 50vw"
-							           src="/assets/scss/wp-content/uploads/2019/01/ardensBuildingWithJeepInFrontCropped.jpg"
-							           class="image" alt="Jeep Cherokee custom suspension rebuild with lift kit by Arden's Auto Oshkosh, WI">
+								 <img src="/endlessExpansion/wp-content/uploads/2018/04/foxAndFlowerTattooSmall.jpg" class="flexImage"
+ 			           alt="Colorful custom fox tattoo by Green Bay, WI tattoo artist Greg Counard">
 
+								 <img src="/endlessExpansion/wp-content/uploads/2018/04/FlowerTattooByGregCounardSmall.jpg" class="flexImage"
+ 			           alt="Colorful custom flower tattoo by Green Bay, WI tattoo artist Greg Counard">
 
-											</div>
-
-											<h4 class="centerText">Jeep Cherokee</h4>
-
-										</a>
-
-								</div>
-
-								<div class="col40 zoomContainerWrapper">
-
-										<a class="zoomContainerLarge" href="/projects/mazdaspeed3/">
-
-											<div class="zoomContainerLarge">
-
-												<img class="image zoomImage"
-							          srcset="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-400.jpg 400w,
-							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-500.jpg 600w,
-							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16-600.jpg 800w,
-							           /assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg 1200w"
-							          sizes="(min-width: 992px) 50vw"
-							           src="/assets/scss/wp-content/uploads/2019/01/mazdaspeed3Project16MediumSquared.jpg"
-							           class="image" alt="Engine rebuild on a 2012 Mazdaspeed3 by Ardens Auto Oshkosh WI">
-
-											</div>
-
-											<h4 class="centerText">Mazdaspeed3</h4>
-
-										</a>
-
-								</div>
+								 <img src="/endlessExpansion/wp-content/uploads/2018/04/ElephantSittingOnRockTattooSmall.jpg" class="flexImage"
+ 			           alt="Colorful custom elephant tattoo by Green Bay, WI tattoo artist Greg Counard">
 
 							</div>
 

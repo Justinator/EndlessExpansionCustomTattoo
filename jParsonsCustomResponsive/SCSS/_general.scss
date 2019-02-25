@@ -54,37 +54,6 @@ a:focus{
     border-radius: 10px;
     background-color: $primaryColor;
 }
-
-.plainLink{
-	position: relative;
-	text-decoration: none;
-	color: $primaryColor;
-	transition: .3s ease all;
-		&:before{
-			position: absolute;
-			bottom: 50%;
-			left: 0;
-			content: "";
-			height: 2px;
-			width: 100%;
-			opacity: 0;
-			background: $primaryColor;
-			transition: .3s ease all;
-		}
-    &:hover{
-	    color: $primaryColorDarkened;
-	    transition: .3s ease all;
-				&:before{
-					position: absolute;
-					bottom: 0;
-					left: 0;
-					content: "";
-					opacity: 1;
-					background: $primaryColorDarkened;
-					transition: .3s ease all;
-				}
-    }
-}
 .sublink{
 	margin-left: 50px;
 }

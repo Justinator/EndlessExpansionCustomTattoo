@@ -8,7 +8,6 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: jParsonsCustomResponsive
-Template: jParsonsCustomResponsive
 */
 /* 1.0 sitewide variables -------------------------------------------*/
 /* 2.0 Define mobile breakpoints for our site ----------------------*/
@@ -107,7 +106,7 @@ Template: jParsonsCustomResponsive
   @media (min-width: 600px) {
     .pageWidth {
       width: 90%; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1250px) {
     .pageWidth {
       width: 70%; } }
 
@@ -121,10 +120,11 @@ Template: jParsonsCustomResponsive
 
 .blockText {
   padding: 50px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #FFFFFF; }
+  background-color: #b3b3b3; }
   @media (max-width: 600px) {
     .blockText {
       padding: 20px; } }
@@ -201,7 +201,7 @@ Template: jParsonsCustomResponsive
   z-index: 999;
   width: 100%;
   content: "";
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.7); }
   @media (max-width: 600px) {
     .smallHeroOverlay {
       height: 40vh; } }
@@ -254,6 +254,9 @@ Template: jParsonsCustomResponsive
 
 .whiteBlock {
   background: #FFFFFF; }
+
+.blackBlock {
+  background: #333333; }
 
 @media (max-width: 600px) {
   .paddedSection {
@@ -423,7 +426,6 @@ nav {
         font-size: 20px;
         line-height: 5px;
         padding-bottom: 10px;
-        border-bottom: 1px solid #b3b3b3;
         display: flex;
         align-items: center;
         justify-content: space-between; } }
@@ -607,7 +609,11 @@ nav {
       margin: 0; } }
   @media (min-width: 768px) {
     .footerLink {
-      margin: 10px 20px; } }
+      margin: 10px 20px;
+      font-size: 16px; } }
+  @media (min-width: 992px) {
+    .footerLink {
+      font-size: 20px; } }
   .footerLink:after {
     position: absolute;
     height: 3px;
@@ -630,6 +636,10 @@ nav {
       width: 100%;
       height: 3px;
       transition: .3s ease all; }
+
+.socialNavigation {
+  justify-content: center;
+  margin: 10px 0; }
 
 address h5 {
   margin-block-end: 10px; }
@@ -731,7 +741,7 @@ optgroup,
 textarea {
   color: #020101;
   font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Geneva, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -787,7 +797,40 @@ h6 {
 address {
   font-style: inherit; }
 
+.smallMargin {
+  margin-block-end: 10px; }
+
+.noMargin {
+  margin-block-end: 0; }
+
 /* 7.0 Button Stylings ---------------------------------------*/
+.plainLink {
+  position: relative;
+  text-decoration: none;
+  color: #d27129;
+  transition: .3s ease all; }
+  .plainLink:before {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    content: "";
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    background: #d27129;
+    transition: .3s ease all; }
+  .plainLink:hover {
+    color: #a75a21;
+    transition: .3s ease all; }
+    .plainLink:hover:before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      opacity: 1;
+      background: #a75a21;
+      transition: .3s ease all; }
+
 .redLink {
   color: #d27129 !important;
   transition: .3s ease all; }
@@ -833,31 +876,14 @@ address {
   position: relative;
   z-index: 1;
   border: 2px solid #FFFFFF;
-  border-radius: 10px;
   background: #FFFFFF;
   padding: 10px 20px;
-  color: #d27129;
+  color: #1e1e1e;
   transition: .3s ease all;
   cursor: pointer;
   text-decoration: none;
   width: max-content; }
   .whiteButton:hover {
-    background: rgba(0, 0, 0, 0);
-    color: #FFFFFF;
-    transition: .3s ease all; }
-
-.feedbackSubmit {
-  position: relative;
-  z-index: 1;
-  border: 2px solid #FFFFFF;
-  border-radius: 10px;
-  background: #FFFFFF;
-  padding: 10px 20px;
-  color: #d27129;
-  transition: .3s ease all;
-  cursor: pointer;
-  font-size: 14px !important; }
-  .feedbackSubmit:hover {
     background: rgba(0, 0, 0, 0);
     color: #FFFFFF;
     transition: .3s ease all; }
@@ -927,33 +953,6 @@ a:focus {
   border-radius: 10px;
   background-color: #d27129; }
 
-.plainLink {
-  position: relative;
-  text-decoration: none;
-  color: #d27129;
-  transition: .3s ease all; }
-  .plainLink:before {
-    position: absolute;
-    bottom: 50%;
-    left: 0;
-    content: "";
-    height: 2px;
-    width: 100%;
-    opacity: 0;
-    background: #d27129;
-    transition: .3s ease all; }
-  .plainLink:hover {
-    color: #8a1e1e;
-    transition: .3s ease all; }
-    .plainLink:hover:before {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      content: "";
-      opacity: 1;
-      background: #8a1e1e;
-      transition: .3s ease all; }
-
 .sublink {
   margin-left: 50px; }
 
@@ -994,6 +993,14 @@ a:focus {
   display: inline-block;
   width: 16px;
   height: 16px;
+  stroke-width: 0;
+  stroke: #FFFFFF;
+  fill: #FFFFFF; }
+
+.largeIcon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
   stroke-width: 0;
   stroke: #FFFFFF;
   fill: #FFFFFF; }
@@ -1064,6 +1071,81 @@ a:focus {
   @media (min-width: 992px) {
     #endlessIntro {
       margin-top: 50px; } }
+
+.textUnderline {
+  content: "";
+  height: 3px;
+  width: 7em;
+  margin-bottom: 20px;
+  background-color: #d27129; }
+
+.orangeDivider {
+  content: "";
+  height: 3px;
+  width: 2em;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #d27129; }
+
+.borderedImageLeft {
+  border-left: 10px solid #d27129;
+  border-bottom: 10px solid #d27129;
+  width: calc(100% - 10px); }
+
+.borderedImageRight {
+  border-right: 10px solid #d27129;
+  border-bottom: 10px solid #d27129;
+  width: calc(100% - 10px); }
+
+.testimonialWrapper {
+  padding: 50px;
+  position: relative; }
+  .testimonialWrapper:before {
+    content: '"';
+    color: #d27129;
+    font-size: 125px;
+    position: absolute;
+    top: -70px;
+    left: 50px; }
+  .testimonialWrapper:after {
+    content: '"';
+    color: #d27129;
+    font-size: 125px;
+    position: absolute;
+    bottom: -120px;
+    right: 50px; }
+
+.removeBottomPadding {
+  padding-bottom: 0; }
+
+.featuredWorkWrapper {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  flex-wrap: wrap; }
+
+.flexImage {
+  width: 30%;
+  height: 100%;
+  margin: 10px; }
+  @media (max-width: 600px) {
+    .flexImage {
+      width: 100%;
+      height: 100%; } }
+  @media (min-width: 600px) {
+    .flexImage {
+      width: 100%;
+      height: 100%; } }
+  @media (min-width: 768px) {
+    .flexImage {
+      width: 40%;
+      height: 100%; } }
+  @media (min-width: 992px) {
+    .flexImage {
+      width: 30%;
+      height: 100%; } }
 
 .cardWrap {
   margin: 0 auto; }
@@ -1238,7 +1320,7 @@ a:focus {
 
 .siteCTAWrap {
   position: relative;
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/transmissionWorkCropped.jpg");
+  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/BlueFlowerTattooLarge_mini.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -1248,7 +1330,7 @@ a:focus {
       height: 450px; } }
   @media (min-width: 600px) {
     .siteCTAWrap {
-      height: 400px; } }
+      height: 300px; } }
   .siteCTAWrap a {
     text-decoration: none; }
 
@@ -1256,7 +1338,7 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(201, 43, 44, 0.95);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 999;
   content: "";
   width: 100%;
@@ -1622,7 +1704,7 @@ template {
 
 /* 12.0 Service Page stylings -------------------------------------------*/
 .serviceHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/transmissionWorkCroppedLarge.jpg"); }
+  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/dragonBallZSmallCropped.jpg"); }
 
 @media (max-width: 600px) {
   .serviceHeading {
@@ -1636,6 +1718,13 @@ template {
 @media (min-width: 1250px) {
   .serviceHeading {
     width: 60%; } }
+
+.imageWrapper {
+  padding: 20px; }
+
+.offsetImage {
+  position: relative;
+  top: 100px; }
 
 @media (max-width: 600px) {
   #servicesIntro {
@@ -1760,10 +1849,10 @@ template {
 /* 13.0 Contact Page stylings -------------------------------------------*/
 @media (max-width: 600px) {
   #contactContent {
-    margin-top: 250px !important; } }
+    margin-top: 100px !important; } }
 @media (min-width: 600px) {
   #contactContent {
-    margin-top: 250px !important; } }
+    margin-top: 100px !important; } }
 @media (min-width: 768px) {
   #contactContent {
     margin-top: 150px !important; } }
@@ -1777,6 +1866,14 @@ template {
 @media (min-width: 768px) {
   #contactHeading {
     bottom: -55px !important; } }
+
+.locationContentWrapper {
+  padding: 20px; }
+
+.locationContent {
+  padding: 20px;
+  position: relative;
+  top: -50px; }
 
 .smallMapWrapper {
   padding: 20px; }
@@ -1805,6 +1902,33 @@ template {
 
 #fld_7683514_1 {
   height: 100px; }
+
+#fld_9225901Label {
+  color: #FFFFFF !important; }
+
+.radio label {
+  color: #FFFFFF !important; }
+
+.uploadButton {
+  background-color: #1e1e1e; }
+
+.file-prevent-overflow button {
+  position: relative;
+  z-index: 1;
+  border: 2px solid #d27129;
+  background: #d27129;
+  padding: 10px 20px;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  width: max-content;
+  margin-bottom: 10px;
+  transition: .2s ease all;
+  cursor: pointer; }
+  .file-prevent-overflow button:hover {
+    background: rgba(0, 0, 0, 0) !important;
+    border: 2px solid #d27129 !important;
+    color: #d27129 !important;
+    transition: .2s ease all; }
 
 /* 14.0 Promotions -------------------------------------------*/
 @media (max-width: 600px) {
