@@ -46,7 +46,7 @@
       padding: 25px;
     }
 }
-#endlessIntro{
+.endlessIntro{
 	padding: 50px 0;
 	background-image: url("/endlessExpansion/wp-content/uploads/2018/04/rectangleBackground.png");
 	background-repeat: no-repeat;
@@ -117,7 +117,6 @@
   flex-direction: row;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
   flex-wrap: wrap;
 }
 .flexImage{

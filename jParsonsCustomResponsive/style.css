@@ -295,6 +295,13 @@ Text Domain: jParsonsCustomResponsive
   max-width: 800px;
   margin: 0 auto; }
 
+.pageIntro {
+  padding: 100px 0;
+  margin-top: 50px;
+  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/rectangleBackground.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
   position: fixed;
@@ -588,7 +595,8 @@ nav {
   background-color: #1e1e1e;
   width: 100%;
   padding: 0 0 50px 0;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: -18px; }
 
 .footerLogo {
   margin-top: 25px;
@@ -1068,22 +1076,22 @@ a:focus {
     .heroHeading {
       padding: 25px; } }
 
-#endlessIntro {
+.endlessIntro {
   padding: 50px 0;
   background-image: url("/endlessExpansion/wp-content/uploads/2018/04/rectangleBackground.png");
   background-repeat: no-repeat;
   background-position: center center; }
   @media (max-width: 600px) {
-    #endlessIntro {
+    .endlessIntro {
       margin-top: 0; } }
   @media (min-width: 600px) {
-    #endlessIntro {
+    .endlessIntro {
       margin-top: 0; } }
   @media (min-width: 768px) {
-    #endlessIntro {
+    .endlessIntro {
       margin-top: 0; } }
   @media (min-width: 992px) {
-    #endlessIntro {
+    .endlessIntro {
       margin-top: 50px; } }
 
 .textUnderline {
@@ -1137,7 +1145,6 @@ a:focus {
   flex-direction: row;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
   flex-wrap: wrap; }
 
 .flexImage {
@@ -1944,70 +1951,14 @@ template {
     color: #d27129 !important;
     transition: .2s ease all; }
 
-/* 14.0 Promotions -------------------------------------------*/
-@media (max-width: 600px) {
-  #promotionsContent {
-    margin-top: 150px; } }
-@media (min-width: 600px) {
-  #promotionsContent {
-    margin-top: 150px; } }
-@media (min-width: 768px) {
-  #promotionsContent {
-    margin-top: 50px; } }
-
-#promotionsRow2 {
-  margin-top: 25px; }
-
-.couponBox {
-  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  border: 3px dashed #1e1e1e; }
-  @media (max-width: 600px) {
-    .couponBox {
-      margin: 25px 0 25px 0; } }
-  @media (min-width: 600px) {
-    .couponBox {
-      margin: 25px 0 25px 0; } }
-  @media (min-width: 992px) {
-    .couponBox {
-      margin: 0 25px 0 25px; } }
-
-.terms {
-  font-size: 10px; }
-
-.shortHeading {
-  border-radius: 10px;
-  background-color: rgba(201, 43, 44, 0.9);
-  position: absolute; }
-  @media (max-width: 600px) {
-    .shortHeading {
-      width: 100%;
-      border-radius: 0;
-      background-color: #d27129;
-      bottom: -120px; } }
-  @media (min-width: 600px) {
-    .shortHeading {
-      width: 100%;
-      border-radius: 0;
-      background-color: #d27129;
-      bottom: -130px; } }
-  @media (min-width: 768px) {
-    .shortHeading {
-      width: 80%;
-      border-radius: 10px;
-      background-color: rgba(201, 43, 44, 0.9);
-      bottom: -55px; } }
-  @media (min-width: 1250px) {
-    .shortHeading {
-      width: 60%; } }
-
-.smallLogo {
-  width: 100px;
-  height: auto; }
+/* 14.0 Portfolio Page stylings -------------------------------------------*/
+.portfolioHero {
+  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/FlowerTattooByGregCounardCropped-1.jpg"); }
 
 /* 15.0 About Pages -------------------------------------------*/
 .aboutHero {
-  background-image: url("/assets/scss/wp-content/uploads/2019/01/alexWorkingOnATransmissionCropped.jpg"); }
+  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/spaceTattooByGregCounard2Cropped-1-e1524577542521.jpg");
+  background-position: center; }
 
 .aboutHeading {
   border-radius: 10px;

@@ -46,7 +46,7 @@ get_header();
 
 				<section id="pageContent">
 
-				<section id ="endlessIntro">
+				<section class ="endlessIntro">
 
 					<div class="navWidth flex-container centerAlignedContainer">
 
@@ -70,7 +70,7 @@ get_header();
 
 				</section>
 
-				<section id ="tattooServices">
+				<section id ="customTattooServices">
 
 					<div class="contentBlock flex-container-reverse centerAlignedContainer">
 
@@ -117,7 +117,7 @@ get_header();
 
 				</section>
 
-				<section id ="tattooServices">
+				<section id ="tattooStudio">
 
 					<div class="contentBlock flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
 
@@ -178,7 +178,7 @@ get_header();
 
 				</section>
 
-				<section id ="tattooServices">
+				<section id ="therapeuticTattooing">
 
 					<div class="contentBlock flex-container centerAlignedContainer">
 
@@ -225,7 +225,7 @@ get_header();
 
 				</section>
 
-				<section id ="aboutGreg">
+				<section id ="oneOnOneArt">
 
 					<div class="contentBlock flex-container-reverse centerAlignedContainer paddedSection removeBottomPadding">
 

@@ -54,7 +54,7 @@ get_header();
 
 				<section id="pageContent">
 
-				<section id ="endlessIntro">
+				<section class="endlessIntro">
 
 					<div class="navWidth flex-container centerAlignedContainer">
 
