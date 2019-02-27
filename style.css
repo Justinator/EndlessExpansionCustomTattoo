@@ -1068,7 +1068,8 @@ a:focus {
       width: 60%; } }
 
 .heroHeading {
-  padding: 25px; }
+  padding: 25px;
+  max-width: 700px; }
   @media (max-width: 600px) {
     .heroHeading {
       padding: 20px; } }
@@ -2059,5 +2060,27 @@ template {
   display: none; }
 .entry-content h2 {
   color: #FFFFFF; }
+
+/* 17.0 Sitemap Page -------------------------------------------*/
+.pagenav a {
+  position: relative;
+  color: #d27129;
+  text-decoration: none;
+  transition: .2s ease all; }
+  .pagenav a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background-color: #d27129;
+    height: 2px;
+    width: 0;
+    transition: .2s ease all; }
+  .pagenav a:hover {
+    color: #a75a21;
+    transition: .2s ease all; }
+    .pagenav a:hover:after {
+      width: 100%;
+      transition: .2s ease all; }
 
 /*# sourceMappingURL=style.css.map */

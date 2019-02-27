@@ -43,10 +43,10 @@ get_header();
 
 						<div class="pageWidth paddedSection">
 
-						<h3>Pages</h3>
+						<h3 class="whiteText">Pages</h3>
 
 						<ul>
-							<?php wp_list_pages( 'exclude=176,177' ); ?>
+							<?php wp_list_pages( 'exclude=176,177,178,149,175' ); ?>
 						</ul>
 
 					</div>

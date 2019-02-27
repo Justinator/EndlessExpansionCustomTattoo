@@ -1,0 +1,27 @@
+/* 17.0 Sitemap Page -------------------------------------------*/
+.pagenav{
+  a{
+    position: relative;
+    color: $primaryColor;
+    text-decoration: none;
+    transition: .2s ease all;
+    &:after{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      background-color: $primaryColor;
+      height: 2px;
+      width: 0;
+      transition: .2s ease all;
+    }
+    &:hover{
+      color: $primaryColorDarkened;
+      transition: .2s ease all;
+      &:after{
+        width: 100%;
+        transition: .2s ease all;
+      }
+    }
+  }
+}

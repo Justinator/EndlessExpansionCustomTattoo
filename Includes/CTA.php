@@ -8,7 +8,7 @@
 
           <div class="centeredButton">
 
-            <a href="/endlessExpansion/contact/" class="whiteButton" role="link">Contact Endless Expansion</a>
+            <a href="/endlessExpansion/contact/" class="primaryButton" role="link">Contact Endless Expansion</a>
 
           </div>
 
