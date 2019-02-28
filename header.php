@@ -60,7 +60,7 @@
 
 					<li>
 
-						<a class="menuLink" href = "/about/" role="link" tabindex="-1">About</a
+						<a class="menuLink" href = "/about/" role="link" tabindex="-1">About</a>
 
 					</li>
 

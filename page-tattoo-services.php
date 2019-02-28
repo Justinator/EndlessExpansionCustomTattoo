@@ -107,7 +107,7 @@ get_header();
 									$150 per hour, $120 for returning clients. After three visits clients receive a relaxed rate of $120 per hour.
 								</p>
 
-								<a href="/contact/" class="primaryButton" role="link">Book A Custom Tattoo Appointment</a>
+								<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 
 							</div>
 

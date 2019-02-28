@@ -417,7 +417,7 @@ nav {
     margin-top: 4px; }
 
 .menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 99999;
   height: 90vh;
@@ -429,7 +429,7 @@ nav {
 .open {
   position: fixed;
   transform: translate(0);
-  transition: .1s ease-out all; }
+  transition: .2s ease-out all; }
 
 .linkWrap {
   position: absolute;
@@ -1136,8 +1136,16 @@ a:focus {
   width: calc(100% - 10px); }
 
 .testimonialWrapper {
-  padding: 50px;
   position: relative; }
+  @media (max-width: 600px) {
+    .testimonialWrapper {
+      padding: 20px; } }
+  @media (min-width: 600px) {
+    .testimonialWrapper {
+      padding: 20px; } }
+  @media (min-width: 768px) {
+    .testimonialWrapper {
+      padding: 50px; } }
   .testimonialWrapper:before {
     content: '"';
     color: #d27129;
