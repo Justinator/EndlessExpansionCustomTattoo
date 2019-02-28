@@ -46,6 +46,9 @@
 	color: $white !important;
   text-decoration: none;
   width: max-content;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: -ms-max-content;
 	margin-bottom: 10px;
 	transition: .2s ease all;
 	cursor: pointer;

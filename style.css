@@ -296,11 +296,16 @@ Text Domain: jParsonsCustomResponsive
   margin: 0 auto; }
 
 .pageIntro {
-  padding: 100px 0;
   margin-top: 50px;
-  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/rectangleBackground.png");
+  background-image: url("/wp-content/uploads/2018/04/rectangleBackground.png");
   background-repeat: no-repeat;
   background-position: center center; }
+  @media (max-width: 600px) {
+    .pageIntro {
+      padding: 25px 0; } }
+  @media (min-width: 600px) {
+    .pageIntro {
+      padding: 100px 0; } }
 
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
@@ -661,6 +666,12 @@ nav {
 .socialNavigation {
   justify-content: center;
   margin: 10px 0; }
+  .socialNavigation a {
+    text-decoration: none; }
+    .socialNavigation a:hover .largeIcon {
+      stroke: #d27129;
+      fill: #d27129;
+      transition: .2s ease all; }
 
 address h5 {
   margin-block-end: 10px; }
@@ -871,6 +882,9 @@ address {
   color: #FFFFFF !important;
   text-decoration: none;
   width: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: -ms-max-content;
   margin-bottom: 10px;
   transition: .2s ease all;
   cursor: pointer; }
@@ -979,7 +993,8 @@ a:focus {
   margin-left: 50px; }
 
 #privacyPolicy {
-  margin-top: 150px; }
+  margin-top: 150px;
+  color: #FFFFFF; }
 
 /*9.0 Icon Styling -------------------------------------------*/
 .whiteIcon {
@@ -1040,7 +1055,7 @@ a:focus {
   justify-content: center; }
 
 .homeHero {
-  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/waterfallTatooCropped.jpg"); }
+  background-image: url("/wp-content/uploads/2018/04/waterfallTatooCropped.jpg"); }
 
 #heroHeading {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
@@ -1079,7 +1094,7 @@ a:focus {
 
 .endlessIntro {
   padding: 50px 0;
-  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/rectangleBackground.png");
+  background-image: url("/wp-content/uploads/2018/04/rectangleBackground.png");
   background-repeat: no-repeat;
   background-position: center center; }
   @media (max-width: 600px) {
@@ -1158,7 +1173,7 @@ a:focus {
       height: 100%; } }
   @media (min-width: 600px) {
     .flexImage {
-      width: 100%;
+      width: 40%;
       height: 100%; } }
   @media (min-width: 768px) {
     .flexImage {
@@ -1342,7 +1357,7 @@ a:focus {
 
 .siteCTAWrap {
   position: relative;
-  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/BlueFlowerTattooLarge_mini.jpg");
+  background-image: url("/wp-content/uploads/2018/04/BlueFlowerTattooLarge_mini.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -1726,7 +1741,7 @@ template {
 
 /* 12.0 Service Page stylings -------------------------------------------*/
 .serviceHero {
-  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/dragonBallZSmallCropped.jpg"); }
+  background-image: url("/wp-content/uploads/2018/04/dragonBallZSmallCropped.jpg"); }
 
 @media (max-width: 600px) {
   .serviceHeading {
@@ -1952,13 +1967,16 @@ template {
     color: #d27129 !important;
     transition: .2s ease all; }
 
+.thankYouHero {
+  background-image: url("/wp-content/uploads/2018/04/amethystStegosaurusCropped.jpg"); }
+
 /* 14.0 Portfolio Page stylings -------------------------------------------*/
 .portfolioHero {
-  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/FlowerTattooByGregCounardCropped-1.jpg"); }
+  background-image: url("/wp-content/uploads/2018/04/FlowerTattooByGregCounardCropped-1.jpg"); }
 
 /* 15.0 About Pages -------------------------------------------*/
 .aboutHero {
-  background-image: url("/endlessExpansion/wp-content/uploads/2018/04/spaceTattooByGregCounard2Cropped-1-e1524577542521.jpg");
+  background-image: url("/wp-content/uploads/2018/04/spaceTattooByGregCounard2Cropped-1-e1524577542521.jpg");
   background-position: center; }
 
 .aboutHeading {

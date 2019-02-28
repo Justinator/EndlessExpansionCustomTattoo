@@ -38,7 +38,7 @@
 
 		<div class="centerText">
 
-			<a href="http://localhost/endlessExpansion/"><img src="/endlessExpansion/wp-content/uploads/2019/02/EndlessExpansionLogoMedium.png" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
+			<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/02/EndlessExpansionLogoMedium.png" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
 
 		</div>
 
@@ -48,31 +48,31 @@
 
 					<li>
 
-						<a class="menuLink" href = "/endlessExpansion/tattoo-services/" role="link" tabindex="-1">Tattoo Services</a>
+						<a class="menuLink" href = "/tattoo-services/" role="link" tabindex="-1">Tattoo Services</a>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/endlessExpansion/tattoo-portfolio/" role="link" tabindex="-1">Tattoo Portfolio</a>
+						<a class="menuLink" href = "/tattoo-portfolio/" role="link" tabindex="-1">Tattoo Portfolio</a>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/endlessExpansion/about/" role="link" tabindex="-1">About</a
+						<a class="menuLink" href = "/about/" role="link" tabindex="-1">About</a
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/endlessExpansion/client-deposits/" role="link" tabindex="-1">Client Deposits</a>
+						<a class="menuLink" href = "/client-deposits/" role="link" tabindex="-1">Client Deposits</a>
 
 					</li>
 
 					<li>
 
-						<a class="menuLink" href = "/endlessExpansion/contact/" role="link" tabindex="-1">Contact</a>
+						<a class="menuLink" href = "/contact/" role="link" tabindex="-1">Contact</a>
 
 					</li>
 
@@ -140,37 +140,37 @@
 
 				<div class="navWidth menuLinkWrap">
 
-						<a href="http://localhost/endlessExpansion/"><img src="/endlessExpansion/wp-content/uploads/2019/02/EndlessExpansionLogoMedium.png" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
+						<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/02/EndlessExpansionLogoMedium.png" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
 
 						<ul class="linkList2">
 
 							<li>
 
-								<a class="menuLink" href = "/endlessExpansion/tattoo-services/" role="link">Tattoo Services</a>
+								<a class="menuLink" href = "/tattoo-services/" role="link">Tattoo Services</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/endlessExpansion/tattoo-portfolio/" role="link">Tattoo Portfolio</a>
+								<a class="menuLink" href = "/tattoo-portfolio/" role="link">Tattoo Portfolio</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/endlessExpansion/about/" role="link">About</a>
+								<a class="menuLink" href = "/about/" role="link">About</a>
 
 							</li>
 
 							<li>
 
-								<a class="menuLink" href = "/endlessExpansion/client-deposits/" role="link">Client Deposits</a>
+								<a class="menuLink" href = "/client-deposits/" role="link">Client Deposits</a>
 
 							</li>
 
 							<li>
 
-								<a class="primaryButton" href = "/endlessExpansion/contact/" role="link">Contact</a>
+								<a class="primaryButton" href = "/contact/" role="link">Contact</a>
 
 							</li>
 

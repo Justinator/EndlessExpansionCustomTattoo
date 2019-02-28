@@ -76,11 +76,11 @@ get_header();
 							<div class="imageWrapper">
 
 								<img
-								srcset="/endlessExpansion/wp-content/uploads/2018/04/GregProfileSmall.jpg 400w,
-								 /endlessExpansion/wp-content/uploads/2018/04/GregProfileSmall.jpg 600w,
-								 /endlessExpansion/wp-content/uploads/2018/04/GregProfileSmall.jpg 800w,
-								 /endlessExpansion/wp-content/uploads/2018/04/GregProfileSmall.jpg 1200w"
-								 src="/endlessExpansion/wp-content/uploads/2018/04/GregProfileSmall.jpg"
+								srcset="/wp-content/uploads/2018/04/GregProfileSmall.jpg 400w,
+								 /wp-content/uploads/2018/04/GregProfileSmall.jpg 600w,
+								 /wp-content/uploads/2018/04/GregProfileSmall.jpg 800w,
+								 /wp-content/uploads/2018/04/GregProfileSmall.jpg 1200w"
+								 src="/wp-content/uploads/2018/04/GregProfileSmall.jpg"
 								 class="image borderedImageLeft" alt="Photo of tattoo artist and owner of Endless Expansion Custom Tattoo Greg Counard">
 
 						 </div>
@@ -92,11 +92,11 @@ get_header();
 							<div class="imageWrapper">
 
 								<img
-								srcset="/endlessExpansion/wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 400w,
-								 /endlessExpansion/wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 600w,
-								 /endlessExpansion/wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 800w,
-								 /endlessExpansion/wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 1200w"
-								 src="/endlessExpansion/wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg"
+								srcset="/wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 400w,
+								 /wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 600w,
+								 /wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 800w,
+								 /wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg 1200w"
+								 src="/wp-content/uploads/2018/04/GregTattooingAClientSmall.jpg"
 								 class="image borderedImageRight offsetImage" alt="Greg Counard tattooing a client">
 
 						 </div>
@@ -114,11 +114,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/ArtByGreg13Small.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ArtByGreg13Small.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ArtByGreg13Small.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ArtByGreg13Small.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/ArtByGreg13Small.jpg"
+							srcset="/wp-content/uploads/2018/04/ArtByGreg13Small.jpg 400w,
+							 /wp-content/uploads/2018/04/ArtByGreg13Small.jpg 600w,
+							 /wp-content/uploads/2018/04/ArtByGreg13Small.jpg 800w,
+							 /wp-content/uploads/2018/04/ArtByGreg13Small.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/ArtByGreg13Small.jpg"
 							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
@@ -172,11 +172,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg"
+							srcset="/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 400w,
+							 /wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 600w,
+							 /wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 800w,
+							 /wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattoo.jpg"
 							 class="image borderedImageRight" alt="Custom bear tattoo by Green Bay, WI tattoo artist Greg Counard">
 
 						</div>
@@ -214,11 +214,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg"
+							srcset="/wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 400w,
+							 /wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 600w,
+							 /wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 800w,
+							 /wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/ElephantSittingOnRockTattooMedium.jpg"
 							 class="image borderedImageLeft" alt="Colorful custom elephant tattoo by Green Bay, WI tattoo artist Greg Counard">
 
 						</div>

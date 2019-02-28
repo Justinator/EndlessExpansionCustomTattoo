@@ -112,6 +112,16 @@
 .socialNavigation{
 	justify-content: center;
 	margin: 10px 0;
+	a{
+		text-decoration: none;
+		&:hover{
+			.largeIcon{
+				stroke: $primaryColor;
+				fill: $primaryColor;
+				transition: .2s ease all;
+			}
+		}
+	}
 }
 address{
 	h5{

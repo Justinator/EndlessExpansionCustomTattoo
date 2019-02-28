@@ -46,7 +46,7 @@ get_header();
 						<h3 class="whiteText">Pages</h3>
 
 						<ul>
-							<?php wp_list_pages( 'exclude=176,177,178,149,175' ); ?>
+							<?php wp_list_pages( 'exclude=176,177,178,149,175,349' ); ?>
 						</ul>
 
 					</div>

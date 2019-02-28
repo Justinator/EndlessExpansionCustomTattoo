@@ -38,7 +38,7 @@ get_header();
 
 										<p class="whiteText">Your tattoo is 100% designed and tailored for you and you only, in a completely private and relaxed setting</p>
 
-										<a href="/endlessExpansion/tattoo-portfolio/" class="primaryButton" role="link">View Portfolio</a>
+										<a href="/tattoo-portfolio/" class="primaryButton" role="link">View Portfolio</a>
 
 									</div>
 
@@ -86,11 +86,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/IndianSkullTattoo.jpg"
+							srcset="/wp-content/uploads/2018/04/IndianSkullTattoo.jpg 400w,
+							 /wp-content/uploads/2018/04/IndianSkullTattoo.jpg 600w,
+							 /wp-content/uploads/2018/04/IndianSkullTattoo.jpg 800w,
+							 /wp-content/uploads/2018/04/IndianSkullTattoo.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/IndianSkullTattoo.jpg"
 							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
@@ -116,7 +116,7 @@ get_header();
 									as possible throughout the entire experience.
 								</p>
 
-								<a href="/endlessExpansion/tattoo-services/" class="primaryButton" role="link">View Tattoo Services</a>
+								<a href="/tattoo-services/" class="primaryButton" role="link">View Tattoo Services</a>
 
 							</div>
 
@@ -173,7 +173,7 @@ get_header();
 									View the Endless Expansion Custom Tattoo portfolio to see the quality and craftsmanship that goes into every tattoo.
 								</p>
 
-								<a href="/endlessExpansion/tattoo-portfolio/" class="primaryButton" role="link">View Tattoo Portfolio</a>
+								<a href="/tattoo-portfolio/" class="primaryButton" role="link">View Tattoo Portfolio</a>
 
 							</div>
 
@@ -182,11 +182,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg"
+							srcset="/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 400w,
+							 /wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 600w,
+							 /wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 800w,
+							 /wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg"
 							 class="image borderedImageRight" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
@@ -202,11 +202,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/GregProfileMedium.jpg"
+							srcset="/wp-content/uploads/2018/04/GregProfileMedium.jpg 400w,
+							 /wp-content/uploads/2018/04/GregProfileMedium.jpg 600w,
+							 /wp-content/uploads/2018/04/GregProfileMedium.jpg 800w,
+							 /wp-content/uploads/2018/04/GregProfileMedium.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/GregProfileMedium.jpg"
 							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
@@ -228,7 +228,7 @@ get_header();
 									get incorporated to add more individualized character to your tattoo.
 								</p>
 
-								<a href="/endlessExpansion/about/" class="primaryButton" role="link">Learn More About Greg</a>
+								<a href="/about/" class="primaryButton" role="link">Learn More About Greg</a>
 
 							</div>
 
@@ -262,41 +262,7 @@ get_header();
 
 				<section id="featuredWork">
 
-					<div class="pageWidth">
-
-						<div class="navWidth paddedSection">
-
-							<div class="fullWidth">
-
-									<h3 class="centerText whiteText">Featured Tattoo Work</h3>
-
-							</div>
-
-							<div class="fullWidth featuredWorkWrapper">
-
-								<img src="/endlessExpansion/wp-content/uploads/2018/04/SkullWithWaterColorFlowersTattooSmall.jpg" class="flexImage"
-			           alt="Colorful custom skull with watercolor flowers tattoo by Green Bay, WI tattoo artist Greg Counard">
-
-								 <img src="/endlessExpansion/wp-content/uploads/2018/04/bearTattooSmall.jpg" class="flexImage"
- 			           alt="Colorful black and grey bear tattoo by Green Bay, WI tattoo artist Greg Counard">
-
-								 <img src="/endlessExpansion/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardSmall.jpg" class="flexImage"
- 			           alt="Colorful custom flower tattoo by Green Bay, WI tattoo artist Greg Counard">
-
-								 <img src="/endlessExpansion/wp-content/uploads/2018/04/foxAndFlowerTattooSmall.jpg" class="flexImage"
- 			           alt="Colorful custom fox tattoo by Green Bay, WI tattoo artist Greg Counard">
-
-								 <img src="/endlessExpansion/wp-content/uploads/2018/04/FlowerTattooByGregCounardSmall.jpg" class="flexImage"
- 			           alt="Colorful custom flower tattoo by Green Bay, WI tattoo artist Greg Counard">
-
-								 <img src="/endlessExpansion/wp-content/uploads/2018/04/ElephantSittingOnRockTattooSmall.jpg" class="flexImage"
- 			           alt="Colorful custom elephant tattoo by Green Bay, WI tattoo artist Greg Counard">
-
-							</div>
-
-						</div>
-
-					</div>
+					<?php get_template_part('Includes/featuredWork'); ?>
 
 				</section>
 

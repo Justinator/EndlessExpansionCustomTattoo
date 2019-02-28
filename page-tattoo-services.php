@@ -77,11 +77,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg"
+							srcset="/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 400w,
+							 /wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 600w,
+							 /wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 800w,
+							 /wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg"
 							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
@@ -107,7 +107,7 @@ get_header();
 									$150 per hour, $120 for returning clients. After three visits clients receive a relaxed rate of $120 per hour.
 								</p>
 
-								<a href="/endlessExpansion/contact/" class="primaryButton" role="link">Book A Custom Tattoo Appointment</a>
+								<a href="/contact/" class="primaryButton" role="link">Book A Custom Tattoo Appointment</a>
 
 							</div>
 
@@ -126,11 +126,11 @@ get_header();
 							<div class="imageWrapper">
 
 								<img
-								srcset="/endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 400w,
-								 /endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 600w,
-								 /endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 800w,
-								 /endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 1200w"
-								 src="/endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg"
+								srcset="/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 400w,
+								 /wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 600w,
+								 /wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 800w,
+								 /wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 1200w"
+								 src="/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg"
 								 class="image borderedImageLeft" alt="A Photo of the Private Client area of the Endless Expansion custom tattoo Shop Green Bay, WI">
 
 						 </div>
@@ -142,11 +142,11 @@ get_header();
 							<div class="imageWrapper">
 
 								<img
-								srcset="/endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 400w,
-								 /endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 600w,
-								 /endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 800w,
-								 /endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 1200w"
-								 src="/endlessExpansion/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg"
+								srcset="/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 400w,
+								 /wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 600w,
+								 /wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 800w,
+								 /wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 1200w"
+								 src="/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg"
 								 class="image borderedImageRight offsetImage" alt="A photo of the waiting area of the Endless Expansion Custom Tattoo Shop Green Bay, WI">
 
 						 </div>
@@ -203,7 +203,7 @@ get_header();
 									$150 per hour, $120 for returning clients. After three visits clients receive a relaxed rate of $120 per hour.
 								</p>
 
-								<a href="/endlessExpansion/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
+								<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 
 							</div>
 
@@ -212,11 +212,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/bearTattooMedium.jpg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/bearTattooMedium.jpg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/bearTattooMedium.jpg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/bearTattooMedium.jpg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/bearTattooMedium.jpg"
+							srcset="/wp-content/uploads/2018/04/bearTattooMedium.jpg 400w,
+							 /wp-content/uploads/2018/04/bearTattooMedium.jpg 600w,
+							 /wp-content/uploads/2018/04/bearTattooMedium.jpg 800w,
+							 /wp-content/uploads/2018/04/bearTattooMedium.jpg 1200w"
+							 src="/wp-content/uploads/2018/04/bearTattooMedium.jpg"
 							 class="image borderedImageRight" alt="Custom bear tattoo by Green Bay, WI tattoo artist Greg Counard">
 
 						</div>
@@ -232,11 +232,11 @@ get_header();
 						<div class="col50">
 
 							<img
-							srcset="/endlessExpansion/wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 400w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 600w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 800w,
-							 /endlessExpansion/wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 1200w"
-							 src="/endlessExpansion/wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg"
+							srcset="/wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 400w,
+							 /wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 600w,
+							 /wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 800w,
+							 /wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg 1200w"
+							 src="/wp-content/uploads/2018/04/ArtByGreg3Medium.jpeg"
 							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
 
 						</div>
@@ -259,7 +259,7 @@ get_header();
 									$100 per lesson
 								</p>
 
-								<a href="/endlessExpansion/contact/" class="primaryButton" role="link">Book An Art Lesson</a>
+								<a href="/contact/" class="primaryButton" role="link">Book An Art Lesson</a>
 
 							</div>
 
