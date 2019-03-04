@@ -4,7 +4,7 @@
 
       <div class="CTAcontent">
 
-        <h3 class="whiteText">Ready to start your custom tattoo idea? Let’s get started turning an idea into a living work of art.</h3>
+        <h3 class="whiteText">Ready to start your next custom tattoo idea? Let’s turn your idea into a living work of art.</h3>
 
           <div class="centeredButton">
 

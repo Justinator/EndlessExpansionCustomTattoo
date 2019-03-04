@@ -114,7 +114,7 @@ Text Domain: jParsonsCustomResponsive
   width: 100%; }
 
 .navWidth {
-  width: 90%;
+  width: 95%;
   height: 100%;
   margin: 0 auto; }
 
@@ -381,7 +381,13 @@ Text Domain: jParsonsCustomResponsive
 .siteLogo {
   margin-top: 9px;
   height: auto;
-  width: 115px; }
+  width: 300px; }
+  @media (max-width: 600px) {
+    .siteLogo {
+      width: 150px; } }
+  @media (min-width: 600px) {
+    .siteLogo {
+      width: 300px; } }
 
 nav {
   display: flex;
@@ -476,7 +482,7 @@ nav {
 .menuLink {
   position: relative;
   display: block;
-  margin: 10px 30px 10px 30px;
+  margin: 10px 20px;
   transition: .2s ease all; }
   @media (min-width: 1250px) {
     .menuLink {
@@ -609,7 +615,10 @@ nav {
   width: 200px; }
   @media (max-width: 600px) {
     .footerLogo {
-      width: 125px; } }
+      width: 200px; } }
+  @media (min-width: 600px) {
+    .footerLogo {
+      width: 400px; } }
 
 .footerContact a {
   text-decoration: none;

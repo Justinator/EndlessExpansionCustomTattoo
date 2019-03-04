@@ -126,11 +126,11 @@ get_header();
 							<div class="imageWrapper">
 
 								<img
-								srcset="/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 400w,
-								 /wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 600w,
-								 /wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 800w,
-								 /wp-content/uploads/2018/05/EndlessExpansionShop2.jpg 1200w"
-								 src="/wp-content/uploads/2018/05/EndlessExpansionShop2.jpg"
+								srcset="/wp-content/uploads/2019/03/endlessExpansionNewStudio1-800w.jpg 400w,
+								 /wp-content/uploads/2019/03/endlessExpansionNewStudio1-800w.jpg 600w,
+								 /wp-content/uploads/2019/03/endlessExpansionNewStudio1-800w.jpg 800w,
+								 /wp-content/uploads/2019/03/endlessExpansionNewStudio1-800w.jpg 1200w"
+								 src="/wp-content/uploads/2019/03/endlessExpansionNewStudio1-800w.jpg"
 								 class="image borderedImageLeft" alt="A Photo of the Private Client area of the Endless Expansion custom tattoo Shop Green Bay, WI">
 
 						 </div>
@@ -142,12 +142,12 @@ get_header();
 							<div class="imageWrapper">
 
 								<img
-								srcset="/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 400w,
-								 /wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 600w,
-								 /wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 800w,
-								 /wp-content/uploads/2018/05/EndlessExpansionShop1.jpg 1200w"
-								 src="/wp-content/uploads/2018/05/EndlessExpansionShop1.jpg"
-								 class="image borderedImageRight offsetImage" alt="A photo of the waiting area of the Endless Expansion Custom Tattoo Shop Green Bay, WI">
+								srcset="/wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg 400w,
+								 /wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg 600w,
+								 /wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg 800w,
+								 /wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg 1200w"
+								 src="/wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg"
+								 class="image borderedImageLeft offsetImage" alt="A Photo of the new Endless Expansion custom tattoo Shop Green Bay, WI">
 
 						 </div>
 

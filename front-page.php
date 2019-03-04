@@ -166,10 +166,6 @@ get_header();
 									abstract, outer space, elemental, nature-themed art and more.
 								</p>
 								<p>
-									Have a different tattoo style in mind? No problem! We will do everything in our power to properly research, plan, and execute the style of tattoo
-									that you want, even if that means referring you to a different artist. Only the highest quality tattoos are acceptable here!
-								</p>
-								<p>
 									View the Endless Expansion Custom Tattoo portfolio to see the quality and craftsmanship that goes into every tattoo.
 								</p>
 

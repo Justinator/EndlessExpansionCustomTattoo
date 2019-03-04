@@ -38,7 +38,7 @@
 
 		<div class="centerText">
 
-			<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/02/EndlessExpansionLogoMedium.png" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
+			<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/03/endlessExpansionNewLogo-600w.jpg" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
 
 		</div>
 
@@ -140,7 +140,7 @@
 
 				<div class="navWidth menuLinkWrap">
 
-						<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/02/EndlessExpansionLogoMedium.png" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
+						<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/03/endlessExpansionNewLogo-600w.jpg" class="siteLogo" alt="Endless Expansion Custom Tattoo logo link to homepage"></a>
 
 						<ul class="linkList2">
 

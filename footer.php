@@ -56,7 +56,7 @@
 
 			<div class="col50 centerText">
 
-			<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/02/EndlessExpansionLogoMedium.png" class="footerLogo" alt="Endless Expansion Custom Tattoo logo"></a>
+			<a href="https://endlessexpansiontattoo.com/"><img src="/wp-content/uploads/2019/03/endlessExpansionNewLogo-600w.jpg" class="footerLogo" alt="Endless Expansion Custom Tattoo logo"></a>
 
 			<?php get_template_part('Includes/social'); ?>
 

@@ -74,7 +74,13 @@
 .siteLogo{
 	margin-top: 9px;
 	height: auto;
-	width: 115px;
+	width: 300px;
+	@include breakpoint(smallScreen){
+		width: 150px;
+	}
+	@include breakpoint(largeMobileScreen){
+		width: 300px;
+	}
 }
 nav{
 	display: flex;
@@ -174,7 +180,7 @@ nav{
 .menuLink{
 	position: relative;
 	display: block;
-	margin: 10px 30px 10px 30px;
+	margin: 10px 20px;
 	transition: .2s ease all;
 		@include breakpoint(largeScreen){
 			padding: 10px 10px 10px 10px;
