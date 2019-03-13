@@ -1,0 +1,94 @@
+/* 18.0 Woocommerce Cart and Checkout Pages -------------------------------------------*/
+.woocommerce{
+  margin-bottom: 50px !important;
+  h3{
+    color: $primaryColor;
+  }
+}
+.woocommerce table.cart img{
+  width: 100px;
+  height: 100px;
+}
+.woocommerce-cart-form__contents{
+  color: $white;
+}
+.product-name{
+  a{
+    color: $primaryColor;
+  }
+}
+.coupon{
+  .input-text{
+    height: 42px;
+    margin-right: 0;
+  }
+}
+.cart-collaterals{
+  color: $white !important;
+  border-top: 1px solid #ffffff;
+}
+.cart_totals {
+  margin-top: 25px;
+}
+.wcppec-checkout-buttons__separator{
+  opacity: 1;
+  position: absolute;
+}
+#woo_pp_ec_button{
+  display: block;
+  position: absolute;
+  margin: 1em 0;
+}
+.added_to_cart{
+  color: $primaryColor;
+}
+.lost_password{
+  a{
+    color: $primaryColor;
+  }
+}
+// Checkout page styles
+.woocommerce-info{
+  border-top-color: $primaryColor;
+  &:before{
+    color: $primaryColor;
+  }
+  a{
+    color: $primaryColor;
+  }
+}
+.checkout_coupon{
+  .input-text{
+    height: 42px;
+  }
+}
+.woocommerce .col2-set, .woocommerce-page .col2-set{
+  border-bottom: 1px solid $white;
+}
+#order_review_heading{
+  margin-top: 25px;
+}
+.woocommerce-checkout-review-order-table{
+  color: $white;
+}
+#add_payment_method #payment div.form-row, .woocommerce-cart #payment div.form-row, .woocommerce-checkout #payment div.form-row{
+  padding: 0;
+}
+.about_paypal{
+  color: $primaryColor;
+}
+.payment_method_paypal{
+  p{
+    color: $black;
+  }
+}
+#stripe-payment-data{
+  p{
+    color: $black;
+  }
+}
+.woocommerce-billing-fields__field-wrapper{
+  label{
+    color: $primaryColor;
+  }
+}

@@ -91,7 +91,7 @@ get_header();
 							 /wp-content/uploads/2018/04/IndianSkullTattoo.jpg 800w,
 							 /wp-content/uploads/2018/04/IndianSkullTattoo.jpg 1200w"
 							 src="/wp-content/uploads/2018/04/IndianSkullTattoo.jpg"
-							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
+							 class="image borderedImageLeft lazyload" alt="Custom Skull tattoo by Green Bay tattoo artist Greg Counard">
 
 						</div>
 
@@ -183,7 +183,7 @@ get_header();
 							 /wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 800w,
 							 /wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg 1200w"
 							 src="/wp-content/uploads/2018/04/wolfAndSheepTattooSmall.jpg"
-							 class="image borderedImageRight" alt="Arden's Auto old classic tow truck parked in front of building">
+							 class="image borderedImageRight lazyload" alt="Custom wolf with sheep tattoo by Green Bay tattoo studio Endless Expansion Custom Tattoo">
 
 						</div>
 
@@ -203,7 +203,7 @@ get_header();
 							 /wp-content/uploads/2018/04/GregProfileMedium.jpg 800w,
 							 /wp-content/uploads/2018/04/GregProfileMedium.jpg 1200w"
 							 src="/wp-content/uploads/2018/04/GregProfileMedium.jpg"
-							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
+							 class="image borderedImageLeft lazyload" alt="Photo of Green Bay Tattoo artist Greg Counard">
 
 						</div>
 

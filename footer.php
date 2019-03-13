@@ -124,11 +124,8 @@
 
 			</div>
 
-			<!-- Script for barba.js -->
-			<!--<script async src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>-->
-
-			<!-- Load the :focus-visible polyfill -->
-    	<script src="https://unpkg.com/focus-visible"></script>
+			<!-- Script for lazysizes lazy loading images -->
+		  <script src="/wp-content/themes/jParsonsCustomResponsive/js/lazysizes.min.js" async=""></script>
 
 	</footer><!-- #colophon -->
 

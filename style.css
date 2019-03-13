@@ -2118,4 +2118,80 @@ template {
       width: 100%;
       transition: .2s ease all; }
 
+/* 18.0 Woocommerce Cart and Checkout Pages -------------------------------------------*/
+.woocommerce {
+  margin-bottom: 50px !important; }
+  .woocommerce h3 {
+    color: #d27129; }
+
+.woocommerce table.cart img {
+  width: 100px;
+  height: 100px; }
+
+.woocommerce-cart-form__contents {
+  color: #FFFFFF; }
+
+.product-name a {
+  color: #d27129; }
+
+.coupon .input-text {
+  height: 42px;
+  margin-right: 0; }
+
+.cart-collaterals {
+  color: #FFFFFF !important;
+  border-top: 1px solid #ffffff; }
+
+.cart_totals {
+  margin-top: 25px; }
+
+.wcppec-checkout-buttons__separator {
+  opacity: 1;
+  position: absolute; }
+
+#woo_pp_ec_button {
+  display: block;
+  position: absolute;
+  margin: 1em 0; }
+
+.added_to_cart {
+  color: #d27129; }
+
+.lost_password a {
+  color: #d27129; }
+
+.woocommerce-info {
+  border-top-color: #d27129; }
+  .woocommerce-info:before {
+    color: #d27129; }
+  .woocommerce-info a {
+    color: #d27129; }
+
+.checkout_coupon .input-text {
+  height: 42px; }
+
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+  border-bottom: 1px solid #FFFFFF; }
+
+#order_review_heading {
+  margin-top: 25px; }
+
+.woocommerce-checkout-review-order-table {
+  color: #FFFFFF; }
+
+#add_payment_method #payment div.form-row, .woocommerce-cart #payment div.form-row, .woocommerce-checkout #payment div.form-row {
+  padding: 0; }
+
+.about_paypal {
+  color: #d27129; }
+
+.payment_method_paypal p {
+  color: #1e1e1e; }
+
+#stripe-payment-data p {
+  color: #1e1e1e; }
+
+.woocommerce-billing-fields__field-wrapper label {
+  color: #d27129; }
+
 /*# sourceMappingURL=style.css.map */
