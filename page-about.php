@@ -46,9 +46,9 @@ get_header();
 
 				<section id="pageContent">
 
-				<section class ="pageIntro">
+				<section>
 
-					<div class="navWidth flex-container centerAlignedContainer">
+					<div class="navWidth flex-container centerAlignedContainer endlessLogoOpaque">
 
 						<div class="col70 whiteText limitWidth">
 

@@ -56,7 +56,7 @@ get_header();
 
 				<section class="endlessIntro">
 
-					<div class="navWidth flex-container centerAlignedContainer">
+					<div class="navWidth flex-container centerAlignedContainer endlessLogoOpaque">
 
 						<div class="col70 whiteText limitWidth">
 

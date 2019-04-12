@@ -1102,10 +1102,7 @@ a:focus {
       padding: 25px; } }
 
 .endlessIntro {
-  padding: 50px 0;
-  background-image: url("/wp-content/uploads/2018/04/rectangleBackground.png");
-  background-repeat: no-repeat;
-  background-position: center center; }
+  padding: 50px 0; }
   @media (max-width: 600px) {
     .endlessIntro {
       margin-top: 0; } }
@@ -1118,6 +1115,21 @@ a:focus {
   @media (min-width: 992px) {
     .endlessIntro {
       margin-top: 50px; } }
+
+.endlessLogoOpaque {
+  background-image: url("/wp-content/uploads/2019/04/logoArtworkCroppedOpaque-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (max-width: 600px) {
+    .endlessLogoOpaque {
+      padding: 50px 0; } }
+  @media (min-width: 600px) {
+    .endlessLogoOpaque {
+      padding: 50px 0; } }
+  @media (min-width: 1250px) {
+    .endlessLogoOpaque {
+      padding: 100px 0; } }
 
 .textUnderline {
   content: "";
@@ -2119,10 +2131,8 @@ template {
       transition: .2s ease all; }
 
 /* 18.0 Woocommerce Cart and Checkout Pages -------------------------------------------*/
-.woocommerce {
-  margin-bottom: 50px !important; }
-  .woocommerce h3 {
-    color: #d27129; }
+.woocommerce h3 {
+  color: #d27129; }
 
 .woocommerce table.cart img {
   width: 100px;

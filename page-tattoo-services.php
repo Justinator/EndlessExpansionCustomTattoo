@@ -48,7 +48,7 @@ get_header();
 
 				<section class ="endlessIntro">
 
-					<div class="navWidth flex-container centerAlignedContainer">
+					<div class="navWidth flex-container centerAlignedContainer endlessLogoOpaque">
 
 						<div class="col70 whiteText limitWidth">
 
@@ -82,7 +82,7 @@ get_header();
 							 /wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 800w,
 							 /wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg 1200w"
 							 src="/wp-content/uploads/2018/04/ColorfulFlowersByGregCounardMedium.jpg"
-							 class="image borderedImageLeft" alt="Arden's Auto old classic tow truck parked in front of building">
+							 class="image borderedImageLeft" alt="Colorful flower tattoo by Green Bay tattoo artist Greg Counard">
 
 						</div>
 
@@ -147,7 +147,7 @@ get_header();
 								 /wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg 800w,
 								 /wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg 1200w"
 								 src="/wp-content/uploads/2019/03/endlessExpansionNewStudio3-800w.jpg"
-								 class="image borderedImageLeft offsetImage" alt="A Photo of the new Endless Expansion custom tattoo Shop Green Bay, WI">
+								 class="image borderedImageRight offsetImage" alt="A Photo of the new Endless Expansion custom tattoo Shop Green Bay, WI">
 
 						 </div>
 
