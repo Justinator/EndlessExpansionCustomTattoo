@@ -1,10 +1,13 @@
 <?php
 /**
+ * Template Name: Portfolio
+ *
  * @package jParsonsCustomResponsive
  */
 get_header();
 
 ?>
+
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
 		<section id="hero">
@@ -49,13 +52,13 @@ get_header();
 						<button class="filterButton" onclick="filterSelection('coverUp')"> Cover Ups</button><span class="screen-reader-text">Filter cover up tattoos</span>
 						<button class="filterButton" onclick="filterSelection('flowers')"> Floral</button><span class="screen-reader-text">Filter floral tattoos</span>
 						<button class="filterButton" onclick="filterSelection('nature')"> Nature</button><span class="screen-reader-text">Filter nature tattoos</span>
-						<button class="filterButton" onclick="filterSelection('skulls')"> Skulls</button><span class="screen-reader-text">Filter skull tattoos</span>
+						<button class="filterButton" onclick="filterSelection('skulls')"> Skull</button><span class="screen-reader-text">Filter skull tattoos</span>
 						<button class="filterButton" onclick="filterSelection('space')"> Space</button><span class="screen-reader-text">Filter space tattoos</span>
 						<!--<button class="filterButton" onclick="filterSelection('welding')"> Welding</button>-->
 					</div>
 				</div>
 				<div class="pageWidth">
-					<div class="navWidth">
+					<div class="navWidth paddedSection">
 						<div class="fullWidth featuredWorkWrapper">
 							<?php if( have_rows('portfolio_content') ): ?>
 								<?php while( have_rows('portfolio_content') ): the_row();
@@ -93,6 +96,7 @@ get_header();
 		</section>
 	</main>
 </div>
+
 <?php
 
 get_footer();

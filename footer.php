@@ -126,7 +126,9 @@
 
 			<!-- Script for lazysizes lazy loading images -->
 		  <script src="/wp-content/themes/jParsonsCustomResponsive/js/lazysizes.min.js" async=""></script>
-
+			<script>
+			filterSelection("all");
+			</script>
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->

@@ -2,3 +2,32 @@
 .portfolioHero{
   background-image: url("/wp-content/uploads/2018/04/FlowerTattooByGregCounardCropped-1.jpg");
 }
+.column {
+  display: none;
+}
+.show {
+  display: block;
+}
+.filterButton{
+	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: .2s ease all;
+	transition: .2s ease all;
+	margin: 5px 0;
+	background: $primaryColor;
+	color: $white;
+  border: none;
+	&:active{
+		background: $primaryColorDarkened;
+		color: $white;
+	}
+	&:focus{
+		background: $primaryColorDarkened;
+		color: $white;
+	}
+	&:hover{
+		background: $primaryColorDarkened;
+		-webkit-transition: .2s ease all;
+		transition: .2s ease all;
+	}
+}
