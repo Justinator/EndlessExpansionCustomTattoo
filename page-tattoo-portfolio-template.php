@@ -26,7 +26,7 @@ get_header();
 		</section>
 		<section id="pageContent">
 			<section class="testimonial paddedSection removeBottomPadding">
-				<div class="pageWidth blackBlock">
+				<div class="limitWidth blackBlock">
 					<div class="testimonialWrapper">
 						<p class="whiteText centerText">
 							Greg is an unbelievably talented artist. He can free hand like a boss and every detail is thought through. Everything is custom and meaningful

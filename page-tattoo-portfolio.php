@@ -23,7 +23,7 @@ get_header();
 		</section>
 		<section id="pageContent">
 			<section class="testimonial paddedSection removeBottomPadding">
-				<div class="pageWidth blackBlock">
+				<div class="limitWidth blackBlock">
 					<div class="testimonialWrapper">
 						<p class="whiteText centerText">
 							Greg is an unbelievably talented artist. He can free hand like a boss and every detail is thought through. Everything is custom and meaningful
@@ -35,9 +35,9 @@ get_header();
 					</div>
 				</div>
 			</section>
-			<section id="featuredWork">
+			<section id="featuredWork" class="paddedSection">
 				<div class="pageWidth">
-					<h4>Filter by tattoo type</h4>
+					<h4 class="whiteText noMargin">Filter by Tattoo Type</h4>
 					<div id="myBtnContainer">
 						<button class="filterButton active" onclick="filterSelection('all')"> All</button><span class="screen-reader-text">View all projects</span>
 						<button class="filterButton" onclick="filterSelection('fullSleeve')"> Full Sleeve</button><span class="screen-reader-text">Filter Full Sleeve tattoos</span>
@@ -76,7 +76,7 @@ get_header();
 				</div>
 			</section>
 			<section class="testimonial paddedSection">
-				<div class="pageWidth blackBlock">
+				<div class="limitWidth blackBlock">
 					<div class="testimonialWrapper">
 						<p class="whiteText centerText">
 							Greg has done multiple pieces for me, including a full arm and chest piece. His style is unique and beautiful, his tattoos come out vibrant and the

@@ -1964,6 +1964,9 @@ template {
   -webkit-box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important;
   -moz-box-shadow: 2px 2px 10px rgba(42, 42, 42, 0.4) !important; }
 
+.caldera-grid input[type=file] {
+  color: white; }
+
 .caldera-grid .form-control:focus {
   border-color: #d27129 !important; }
 
@@ -2171,6 +2174,9 @@ template {
 .product-name a {
   color: #d27129; }
 
+.related {
+  clear: both; }
+
 .coupon .input-text {
   height: 42px;
   margin-right: 0; }
@@ -2230,5 +2236,8 @@ template {
 
 .woocommerce-billing-fields__field-wrapper label {
   color: #d27129; }
+
+.woocommerce-page .entry-footer {
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,51 +14,25 @@
 get_header();
 
 ?>
-<div id="barba-wrapper">
-
-	<div class="barba-container">
-
-		<div id="primary" class="content-area">
-
-			<main id="main" class="site-main">
-
-				<section>
-
-					<div>
-
-						<div>
-
-							<div class="pageWidth projectTitleWrapper">
-
-
-							<h1 class="primaryText">Sitemap</h1>
-
-							</div>
-
-						</div>
-
-						</div>
-
-						</section>
-
-						<div class="pageWidth paddedSection">
-
-						<h3 class="whiteText">Pages</h3>
-
-						<ul>
-							<?php wp_list_pages( 'exclude=176,177,178,149,175,349' ); ?>
-						</ul>
-
+<div id="primary" class="content-area">
+	<main id="main" class="site-main">
+		<section>
+			<div>
+				<div>
+					<div class="pageWidth projectTitleWrapper">
+					<h1 class="primaryText">Sitemap</h1>
 					</div>
-
-			</main>
-
-		</div>
-
-	</div>
-
+				</div>
+				</div>
+				</section>
+				<div class="pageWidth paddedSection">
+				<h3 class="whiteText">Pages</h3>
+				<ul>
+					<?php wp_list_pages( 'exclude=176,177,178,149,175,349' ); ?>
+				</ul>
+			</div>
+	</main>
 </div>
-
 <?php
 
 get_footer();
