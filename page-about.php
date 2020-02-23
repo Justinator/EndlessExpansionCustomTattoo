@@ -30,7 +30,7 @@ get_header();
 				<div class="col70 whiteText limitWidth">
 					<p>
 						My name is Greg Counard and I was born and raised in Green Bay, Wisconsin. Art has been an interest of mine my entire life and as a
-						tattoo artist for over sixteen years now. Outside of tattooing, I enjoy working with many styles and mediums of art including wood sculpting,
+						tattoo artist for nearly twenty years now. Outside of tattooing, I enjoy working with many styles and mediums of art including wood sculpting,
 						and multimedia painting.
 					</p>
 					<p>

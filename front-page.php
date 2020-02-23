@@ -39,7 +39,7 @@ get_header();
 					<p>
 						This isn't your average tattoo shop. Unlike most studios, tattoo sessions are by appointment only, there is no intrusion from foot
 						traffic. You are the primary focus. At Endless Expansion Custom Tattoo, you'll receive a creative and relaxing one on one experience
-						with a highly skilled professional with seventeen years of experience. Your tattoo will be a one of a kind work of art that's fully
+						with a highly skilled professional with nearly twenty years of experience. Your tattoo will be a one of a kind work of art that's fully
 						personalized to your body.
 					</p>
 				</div>
