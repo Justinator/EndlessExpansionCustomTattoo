@@ -61,7 +61,8 @@ get_header();
 							All custom tattoos are high quality and respectfully planned and designed to fit your body well.
 						</p>
 						<p>
-							$200 per hour, $150 for returning clients. After three visits clients receive a relaxed rate of $150 per hour.
+							Small to mid-sized single-session tattooing are charged at a rate of $200.00 hourly. Large scale multi-session
+							tattooing, three sessions or more, are charged at a relaxed rate of $150.00 hourly.
 						</p>
 						<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 					</div>
@@ -122,7 +123,8 @@ get_header();
 							There is great empowerment in getting a piece of art that will permanently/symbolically reflect taking the steps in overcoming your struggles and becoming the more whole version of you.
 						</p>
 						<p>
-							$200 per hour, $150 for returning clients. After three visits clients receive a relaxed rate of $150 per hour.
+							Small to mid-sized single-session tattooing are charged at a rate of $200.00 hourly. Large scale multi-session
+							tattooing, three sessions or more, are charged at a relaxed rate of $150.00 hourly.
 						</p>
 						<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 					</div>
