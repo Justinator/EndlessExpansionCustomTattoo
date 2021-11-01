@@ -52,17 +52,10 @@ get_header();
 						<h2 class="smallMargin">Custom Tattooing</h2>
 						<div class="textUnderline"></div>
 						<p>
-							Your tattoo idea should be just as unique as you are. At Endless Expansion Custom Tattoo you will experience a private and personalized tattoo session.
+							Your tattoo idea should be just as unique as you are. At Endless Expansion Custom Tattoo you'll experience a private and personalized tattoo session. No foot traffic, no distractions, all the focus is on you and creating your unique and custom piece of art.
 						</p>
 						<p>
-							No foot traffic, no distractions, all the focus is on you and creating your unique and custom piece of art.
-						</p>
-						<p>
-							All custom tattoos are high quality and respectfully planned and designed to fit your body well.
-						</p>
-						<p>
-							Small to mid-sized single-session tattooing are charged at a rate of $200.00 hourly. Large scale multi-session
-							tattooing, three sessions or more, are charged at a relaxed rate of $150.00 hourly.
+							All custom tattoos are high quality and respectfully planned and designed to fit your body well. All custom tattoo sessions are charged at a rate of $200.00 hourly.
 						</p>
 						<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 					</div>
@@ -123,8 +116,7 @@ get_header();
 							There is great empowerment in getting a piece of art that will permanently/symbolically reflect taking the steps in overcoming your struggles and becoming the more whole version of you.
 						</p>
 						<p>
-							Small to mid-sized single-session tattooing are charged at a rate of $200.00 hourly. Large scale multi-session
-							tattooing, three sessions or more, are charged at a relaxed rate of $150.00 hourly.
+						All custom tattoo sessions are charged at a rate of $200.00 hourly.
 						</p>
 						<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 					</div>
