@@ -55,7 +55,7 @@ get_header();
 							Your tattoo idea should be just as unique as you are. At Endless Expansion Custom Tattoo you'll experience a private and personalized tattoo session. No foot traffic, no distractions, all the focus is on you and creating your unique and custom piece of art.
 						</p>
 						<p>
-							All custom tattoos are high quality and respectfully planned and designed to fit your body well. All custom tattoo sessions are charged at a rate of $200.00 hourly.
+							All custom tattoos are high quality and respectfully planned and designed to fit your body well. All custom tattoo sessions are charged at a rate of $200.00 - $250.00 per hour based on the project.
 						</p>
 						<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 					</div>
@@ -116,7 +116,7 @@ get_header();
 							There is great empowerment in getting a piece of art that will permanently/symbolically reflect taking the steps in overcoming your struggles and becoming the more whole version of you.
 						</p>
 						<p>
-						All custom tattoo sessions are charged at a rate of $200.00 hourly.
+						All custom tattoo sessions are charged at a rate of $200.00 - $250.00 per hour based on the project.
 						</p>
 						<a href="/contact/" class="primaryButton" role="link">Book A Tattoo Appointment</a>
 					</div>
